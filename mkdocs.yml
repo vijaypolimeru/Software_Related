@@ -1,0 +1,26 @@
+site_name: Something About Everything
+
+site_description: This website is about Memtal Models
+
+theme: material
+
+extra:
+ font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+
+nav:
+
+- Home: index.md
+- OpenSEES (User): OPS_User.md
+- OpenSEES VC++: OPS_VCpp.md
+- OpenSEES UBUNTU: OPS_Ubuntu.md
+- Tcl/Tk Language: Tcl_Tk.md
+- C++ Libraries and Tools: Cpp_Lib_Tools.md
+- UBUNTU OS Related: UBUNTU_OS_Rel.md
+- Artificial Intelligence: Art_Int.md
+- Misc: Misc.md
+
+
+
+
