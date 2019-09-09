@@ -2,21 +2,34 @@ site_name: Something About Everything
 
 site_description: A Website for Structural Engineers
 
-theme: material
+theme:
+    name: material
+    feature:
+        tabs: true
+    palette:
+        primary: 'White'
+        accent: 'Red'
+    font:
+        text: 'Ubuntu'
+        code: 'Ubuntu Mono'
 
-extra:
- font:
-    text: 'Ubuntu'
-    code: 'Ubuntu Mono'
 
-nav:
-- Home: index.md
-- OpenSEES: OPS_User.md
-- OpenSEES VC++: OPS_VCpp.md
-- OpenSEES UBUNTU: OPS_Ubuntu.md
-- Tcl/Tk Language: Tcl_Tk.md
-- C++ Libraries and Tools: Cpp_Lib_Tools.md
-- Artificial Intelligence: Art_Int.md
+pages:
+- Home:
+   - About Me: index.md
+- OpenSEES: 
+   - OpenSEES: OPS_User.md
+   - OpenSEES VC++: OPS_VCpp.md
+   - OpenSEES UBUNTU: OPS_Ubuntu.md
+   - Tcl/Tk Language: Tcl_Tk.md
+   - C++ Libraries and Tools: Cpp_Lib_Tools.md
+- Course Planning:
+    - Continuum Mechanics: Art_Int.md
+    - Machine Learning:
+        - Introduction: Tcl_Tk.md
+        - Supervised ML: OPS_Ubuntu.md
+        - Unsupervised ML: OPS_User.md
 - Misc:
     - UBUNTU OS Related: Misc\UBUNTU_OS_Rel.md
+    - Git Related: Misc\Git_Rel.md
     - Uncategorised: Misc\Uncategorised.md
