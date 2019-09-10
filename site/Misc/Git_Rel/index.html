@@ -542,10 +542,34 @@
           
 
 
-  <li class="md-nav__item">
-    <a href="../Uncategorised/" title="Uncategorised" class="md-nav__link">
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
+    
+    <label class="md-nav__link" for="nav-4-3">
       Uncategorised
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        Uncategorised
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Practice/" title="Practice" class="md-nav__link">
+      Practice
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -600,19 +624,19 @@
                 
                 <h1 id="git-related">Git Related...</h1>
 <h2 id="ignoring-files-that-have-already-been-committed-to-the-rrepo">Ignoring Files That Have Already Been Committed to the Rrepo</h2>
-<p>Git can only ignore files that are <em>untracked</em> - files that haven't been committed to the repository, yet. That's why, when you create a new repository, you should also create a <code>.gitignore</code> file with all the file patterns you want to ignore.
+<p>Git can only ignore files that are <em>untracked</em> - files that haven't been committed to the repository, yet. That's why, when you create a new repository, you should also create a <code class="codehilite"><span class="na">.gitignore</span></code> file with all the file patterns you want to ignore.
 However its very difficult to know upfornt about all the file types that you want to be ignored.</p>
 <p>Before cleaning the git repository, </p>
 <ul>
 <li>Just commit all the outstanding changes</li>
-<li>Edit <code>.gitignore</code> file, so that it represents the latest set of file tyes that needs to be ignored.</li>
+<li>Edit <code class="codehilite"><span class="na">.gitignore</span></code> file, so that it represents the latest set of file tyes that needs to be ignored.</li>
 </ul>
 <p>Cleaning the Repo</p>
 <p>Following are the three steps to clean up your repository and make sure ignored items are indeed ignored</p>
-<pre><code class="no-highlight">$ git rm -r --cached .
+<div class="codehilite"><pre><span></span>$ git rm -r --cached .
 $ git add .
-$ git commit -m &quot;Clean up ignored files&quot;
-</code></pre>
+$ git commit -m <span class="s2">&quot;Clean up ignored files&quot;</span>
+</pre></div>
                 
                   
                 
@@ -648,13 +672,13 @@ $ git commit -m &quot;Clean up ignored files&quot;
           </a>
         
         
-          <a href="../Uncategorised/" title="Uncategorised" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../Practice/" title="Practice" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Uncategorised
+                Practice
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -685,6 +709,8 @@ $ git commit -m &quot;Clean up ignored files&quot;
       <script src="../../assets/javascripts/application.c648116f.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
   </body>

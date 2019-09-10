@@ -1,14 +1,18 @@
-# Introduction
+!!! Caution
+    This website will be under development forever, as this website is more like a placeholder.
+	Once certain content of the website is fully matured, it will be moved to a saperate website. Everything you find in this website is open to copy/use/sell, do whatever you want.
+	I will be glad, if you find something usefull in this website.
 
 
-nav:
-- Home: index.md
-- OpenSEES: OPS_User.md
-- OpenSEES VC++: OPS_VCpp.md
-- OpenSEES UBUNTU: OPS_Ubuntu.md
-- Tcl/Tk Language: Tcl_Tk.md
-- C++ Libraries and Tools: Cpp_Lib_Tools.md
-- Artificial Intelligence: Art_Int.md
-- Misc:
-    - UBUNTU OS Related: Misc\UBUNTU_OS_Rel.md
-    - Uncategorised: Misc\Uncategorised.md
+# About Me
+
+
+I am Vijay Kumar. At present, I am working as a research scholar in department of Civil Engineering, IIT Bombay. My research involves predicting the failure characteristics of shear critical thin walled structures (such as Hollow RC bridge columns, shear walls, box girders etc.) under reversed cyclic and earthquake loads. My research interests includes Finite element analysis, Mechanics of Reinforced Concrete and Structural dynamics.
+
+!!! note "Education"
+
+    * **Ph. D**, Structural Engineering, [IIT Bombay](http://www.iitb.ac.in/), India, 2015 - Ongoing
+	* **M.Tech**, Structural Engineering, [NIT Rourkela](https://nitrkl.ac.in/), India, 2013 - 2015
+	* **B. Tech**, Civil Engineering, [KL College of Engineering](https://www.kluniversity.in/) (affiliated to Acharya Nagarjuna University), India, 2008 - 2012
+    
+    

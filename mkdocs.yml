@@ -2,19 +2,11 @@ site_name: Something About Everything
 
 site_description: A Website for Structural Engineers
 
-theme:
-    name: material
-    feature:
-        tabs: true
-    palette:
-        primary: 'White'
-        accent: 'Red'
-    font:
-        text: 'Ubuntu'
-        code: 'Ubuntu Mono'
+#########################################################
+# Page Navigation in .yml
+#########################################################
 
-
-pages:
+nav:
 - Home:
    - About Me: index.md
 - OpenSEES: 
@@ -32,4 +24,54 @@ pages:
 - Misc:
     - UBUNTU OS Related: Misc\UBUNTU_OS_Rel.md
     - Git Related: Misc\Git_Rel.md
-    - Uncategorised: Misc\Uncategorised.md
+    - Uncategorised:
+        - Practice: Misc\Practice.md
+
+#########################################################
+# Theme Description .yml
+#########################################################	
+
+theme:
+    name: material
+    feature:
+        tabs: true
+    palette:
+        primary: 'White'
+        accent: 'Red'
+    font:
+        text: 'Ubuntu'
+        code: 'Ubuntu Mono'
+
+#########################################################
+# Markdown Extensions .yml
+#########################################################	
+
+markdown_extensions:
+    - markdown.extensions.admonition
+    - pymdownx.superfences
+    - codehilite
+    - footnotes
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+
+#########################################################
+# Javascript Extensions .yml
+#########################################################	
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+

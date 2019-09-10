@@ -38,7 +38,7 @@
     
     
       
-        <title>Uncategorised - Something About Everything</title>
+        <title>Uncategorised... - Something About Everything</title>
       
     
     
@@ -111,7 +111,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Uncategorised
+                Uncategorised...
               
             </span>
           
@@ -157,9 +157,7 @@
       
         
 
-  
-
-<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+<nav class="md-tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -207,7 +205,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../UBUNTU_OS_Rel/" class="md-tabs__link md-tabs__link--active">
+        <a href="../UBUNTU_OS_Rel/" class="md-tabs__link">
           Misc
         </a>
       
@@ -458,12 +456,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
     <label class="md-nav__link" for="nav-4">
       Misc
@@ -503,62 +499,35 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
+  <li class="md-nav__item md-nav__item--nested">
     
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
     
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
+    <label class="md-nav__link" for="nav-4-3">
+      Uncategorised
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
         Uncategorised
       </label>
-    
-    <a href="./" title="Uncategorised" class="md-nav__link md-nav__link--active">
-      Uncategorised
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#mkdocs" class="md-nav__link">
-    MkDocs
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
+      <ul class="md-nav__list" data-md-scrollfix>
         
-          <li class="md-nav__item">
-  <a href="#multilevel-navigation" class="md-nav__link">
-    Multilevel Navigation
-  </a>
-  
-</li>
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Practice/" title="Practice" class="md-nav__link">
+      Practice
+    </a>
+  </li>
+
         
       </ul>
     </nav>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -627,19 +596,19 @@
                 <h1 id="uncategorised">Uncategorised...</h1>
 <h2 id="mkdocs">MkDocs</h2>
 <h3 id="multilevel-navigation">Multilevel Navigation</h3>
-<p>MkDocs supports only upto 2nd level navigation. <code>Tab</code> spacing is not supported, use <code>spacebar</code> of creating spaces. The subfolder <em>Misc</em> is not necessary, that is created just to organise the content proeprly</p>
-<pre><code>nav:
-- Home: index.md
-- OpenSEES (User): OPS_User.md
-- OpenSEES VC++: OPS_VCpp.md
-- OpenSEES UBUNTU: OPS_Ubuntu.md
-- Tcl/Tk Language: Tcl_Tk.md
-- C++ Libraries and Tools: Cpp_Lib_Tools.md
-- Artificial Intelligence: Art_Int.md
-- Misc:
-    - UBUNTU OS Related: Misc\UBUNTU_OS_Rel.md
-    - Uncategorised: Misc\Uncategorised.md
-</code></pre>
+<p>MkDocs supports only upto 2<sup>nd</sup> level navigation. <code class="codehilite"><span class="n">Tab</span></code> spacing is not supported, use <code class="codehilite"><span class="n">spacebar</span></code> of creating spaces. The subfolder <em>Misc</em> is not necessary, that is created just to organise the content proeprly</p>
+<div class="codehilite"><pre><span></span><span class="n">nav</span><span class="p">:</span>
+<span class="o">-</span> <span class="n">Home</span><span class="p">:</span> <span class="k">index</span><span class="p">.</span><span class="n">md</span>
+<span class="o">-</span> <span class="n">OpenSEES</span> <span class="p">(</span><span class="k">User</span><span class="p">):</span> <span class="n">OPS_User</span><span class="p">.</span><span class="n">md</span>
+<span class="o">-</span> <span class="n">OpenSEES</span> <span class="n">VC</span><span class="o">++</span><span class="p">:</span> <span class="n">OPS_VCpp</span><span class="p">.</span><span class="n">md</span>
+<span class="o">-</span> <span class="n">OpenSEES</span> <span class="n">UBUNTU</span><span class="p">:</span> <span class="n">OPS_Ubuntu</span><span class="p">.</span><span class="n">md</span>
+<span class="o">-</span> <span class="n">Tcl</span><span class="o">/</span><span class="n">Tk</span> <span class="k">Language</span><span class="p">:</span> <span class="n">Tcl_Tk</span><span class="p">.</span><span class="n">md</span>
+<span class="o">-</span> <span class="k">C</span><span class="o">++</span> <span class="n">Libraries</span> <span class="k">and</span> <span class="n">Tools</span><span class="p">:</span> <span class="n">Cpp_Lib_Tools</span><span class="p">.</span><span class="n">md</span>
+<span class="o">-</span> <span class="n">Artificial</span> <span class="n">Intelligence</span><span class="p">:</span> <span class="n">Art_Int</span><span class="p">.</span><span class="n">md</span>
+<span class="o">-</span> <span class="n">Misc</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">UBUNTU</span> <span class="n">OS</span> <span class="n">Related</span><span class="p">:</span> <span class="n">Misc</span><span class="err">\</span><span class="n">UBUNTU_OS_Rel</span><span class="p">.</span><span class="n">md</span>
+    <span class="o">-</span> <span class="n">Uncategorised</span><span class="p">:</span> <span class="n">Misc</span><span class="err">\</span><span class="n">Uncategorised</span><span class="p">.</span><span class="n">md</span>
+</pre></div>
                 
                   
                 
@@ -656,27 +625,6 @@
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-          <a href="../Git_Rel/" title="Git Related" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Git Related
-              </span>
-            </div>
-          </a>
-        
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -698,6 +646,8 @@
       <script src="../../assets/javascripts/application.c648116f.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
   </body>

@@ -555,10 +555,34 @@
           
 
 
-  <li class="md-nav__item">
-    <a href="../Uncategorised/" title="Uncategorised" class="md-nav__link">
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
+    
+    <label class="md-nav__link" for="nav-4-3">
       Uncategorised
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        Uncategorised
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Practice/" title="Practice" class="md-nav__link">
+      Practice
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -629,8 +653,8 @@
 <h3 id="disable-webcam">Disable Webcam</h3>
 <p>For security or any other reason, sometimes it is very it is very essectial to disable webcam. Following instructions will work in <strong>UBUNTU 18.04</strong>   </p>
 <ul>
-<li>Temporary option - You can disable your webcam device easily via modprobe command. Open terminal either via <code>Ctrl+Alt+T</code> or by searching for <code>terminal</code> from app launcher. When it opens, run command: <code>sudo modprobe -r uvcvideo</code>. The command removes the module from Linux kernel. Webcam is disabled until you reboot Ubuntu. Just start (or restart) <strong>Cheese</strong> to check it out.</li>
-<li>Permanent option - You can add a rule into configuration file, so your Ubuntu machine never starts the webcam kernel module on boot. Open terminal and run command <code>sudo gedit /etc/modprobe.d/blacklist.conf</code> to edit the configuration file. When the file opens, add the following two new lines and save it. Line 1 <code>#Disable webcam</code> and Line 2 <code>blacklist uvcvideo</code>. To revert the changes, simply remove the 2 lines, save the file and finally reboot.</li>
+<li>Temporary option - You can disable your webcam device easily via modprobe command. Open terminal either via <code class="codehilite"><span class="n">Ctrl</span><span class="o">+</span><span class="n">Alt</span><span class="o">+</span><span class="n">T</span></code> or by searching for <code class="codehilite"><span class="n">terminal</span></code> from app launcher. When it opens, run command: <code class="codehilite"><span class="n">sudo</span> <span class="n">modprobe</span> <span class="o">-</span><span class="n">r</span> <span class="n">uvcvideo</span></code>. The command removes the module from Linux kernel. Webcam is disabled until you reboot Ubuntu. Just start (or restart) <strong>Cheese</strong> to check it out.</li>
+<li>Permanent option - You can add a rule into configuration file, so your Ubuntu machine never starts the webcam kernel module on boot. Open terminal and run command <code class="codehilite"><span class="n">sudo</span> <span class="n">gedit</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">modprobe</span><span class="p">.</span><span class="n">d</span><span class="o">/</span><span class="n">blacklist</span><span class="p">.</span><span class="n">conf</span></code> to edit the configuration file. When the file opens, add the following two new lines and save it. Line 1 <code class="codehilite"><span class="o">#</span><span class="n">Disable</span> <span class="n">webcam</span></code> and Line 2 <code class="codehilite"><span class="n">blacklist</span> <span class="n">uvcvideo</span></code>. To revert the changes, simply remove the 2 lines, save the file and finally reboot.</li>
 </ul>
                 
                   
@@ -704,6 +728,8 @@
       <script src="../../assets/javascripts/application.c648116f.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
   </body>
