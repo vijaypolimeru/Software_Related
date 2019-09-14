@@ -10,17 +10,18 @@ nav:
 - Home:
    - About Me: index.md
 - OpenSEES: 
-   - OpenSEES: OPS_User.md
-   - OpenSEES VC++: OPS_VCpp.md
-   - OpenSEES UBUNTU: OPS_Ubuntu.md
-   - Tcl/Tk Language: Tcl_Tk.md
-   - C++ Libraries and Tools: Cpp_Lib_Tools.md
+   - OpenSEES: opensees\OPS_User.md
+   - OpenSEES VC++: opensees\OPS_VCpp.md
+   - OpenSEES UBUNTU: opensees\OPS_Ubuntu.md
+   - Tcl/Tk Language: opensees\Tcl_Tk.md
+   - C++ Libraries and Tools: opensees\Cpp_Lib_Tools.md
 - Course Planning:
-    - Continuum Mechanics: Art_Int.md
+    - Continuum Mechanics: Cont_Mech\Cont_Mech.md
+    - Structural Dynamics: Structural_Dynamics\Structural_Dynamics.md
     - Machine Learning:
-        - Introduction: Tcl_Tk.md
-        - Supervised ML: OPS_Ubuntu.md
-        - Unsupervised ML: OPS_User.md
+        - Introduction: Machine_Learning\Introduction.md
+        - Supervised ML: Machine_Learning\Supervised_ML.md
+        - Unsupervised ML: Machine_Learning\Unsupervised_ML.md
 - Misc:
     - UBUNTU OS Related: Misc\UBUNTU_OS_Rel.md
     - Git Related: Misc\Git_Rel.md
