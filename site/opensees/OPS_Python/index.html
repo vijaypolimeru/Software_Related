@@ -33,18 +33,18 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
     
     
       
-        <title>C++ Libraries and Tools - Something About Everything</title>
+        <title>OpenSEES Python - Something About Everything</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.30686662.css">
       
-        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
       
       
         
@@ -53,7 +53,7 @@
       
     
     
-      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
     
     
       
@@ -62,10 +62,35 @@
         <style>body,input{font-family:"Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
     
     
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-148011093-1", "vijaypolimeru.github.io")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
       
     
     
@@ -85,7 +110,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#c-libraries-and-tools" tabindex="1" class="md-skip">
+      <a href="#openseespy" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -94,7 +119,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href=".." title="Something About Everything" class="md-header-nav__button md-logo">
+        <a href="../.." title="Something About Everything" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -111,7 +136,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                C++ Libraries and Tools
+                OpenSEES Python
               
             </span>
           
@@ -168,7 +193,7 @@
   
     <li class="md-tabs__item">
       
-        <a href=".." class="md-tabs__link">
+        <a href="../.." class="md-tabs__link">
           Home
         </a>
       
@@ -179,13 +204,19 @@
         
   
   
+    
+    
+  
+  
     <li class="md-tabs__item">
       
-        <a href="../OPS_User/" class="md-tabs__link md-tabs__link--active">
+        <a href="../OPS_User/OPS_Seq/" class="md-tabs__link">
           OpenSEES
         </a>
       
     </li>
+  
+
   
 
       
@@ -194,7 +225,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../Art_Int/" class="md-tabs__link">
+        <a href="../../Cont_Mech/Cont_Mech/" class="md-tabs__link">
           Course Planning
         </a>
       
@@ -207,7 +238,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../Misc/UBUNTU_OS_Rel/" class="md-tabs__link">
+        <a href="../../Misc/UBUNTU_OS_Rel/" class="md-tabs__link">
           Misc
         </a>
       
@@ -228,7 +259,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href=".." title="Something About Everything" class="md-nav__button md-logo">
+    <a href="../.." title="Something About Everything" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -263,7 +294,7 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="About Me" class="md-nav__link">
+    <a href="../.." title="About Me" class="md-nav__link">
       About Me
     </a>
   </li>
@@ -300,10 +331,214 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      OpenSEES User
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        OpenSEES User
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
-    <a href="../OPS_User/" title="OpenSEES" class="md-nav__link">
-      OpenSEES
+    <a href="../OPS_User/OPS_Seq/" title="OpenSEES Seq" class="md-nav__link">
+      OpenSEES Seq
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1-2" type="checkbox" id="nav-2-1-2">
+    
+    <label class="md-nav__link" for="nav-2-1-2">
+      OpenSEES Parallel
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-1-2">
+        OpenSEES Parallel
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1-2-1" type="checkbox" id="nav-2-1-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1-2-1">
+      OpenSEES df
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-2-1-2-1">
+        OpenSEES df
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1-2-1-1" type="checkbox" id="nav-2-1-2-1-1">
+    
+    <label class="md-nav__link" for="nav-2-1-2-1-1">
+      OpenSEES df
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="5">
+      <label class="md-nav__title" for="nav-2-1-2-1-1">
+        OpenSEES df
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1-2-1-1-1" type="checkbox" id="nav-2-1-2-1-1-1">
+    
+    <label class="md-nav__link" for="nav-2-1-2-1-1-1">
+      OpenSEES df
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="6">
+      <label class="md-nav__title" for="nav-2-1-2-1-1-1">
+        OpenSEES df
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1-2-1-1-1-1" type="checkbox" id="nav-2-1-2-1-1-1-1">
+    
+    <label class="md-nav__link" for="nav-2-1-2-1-1-1-1">
+      OpenSEES df
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="7">
+      <label class="md-nav__title" for="nav-2-1-2-1-1-1-1">
+        OpenSEES df
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1-2-1-1-1-1-1" type="checkbox" id="nav-2-1-2-1-1-1-1-1">
+    
+    <label class="md-nav__link" for="nav-2-1-2-1-1-1-1-1">
+      OpenSEES df
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="8">
+      <label class="md-nav__title" for="nav-2-1-2-1-1-1-1-1">
+        OpenSEES df
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../OPS_User/OPS_Parallel/" title="OpenSEES df" class="md-nav__link">
+      OpenSEES df
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../OPS_User/OPS_Parallel/" title="OpenSEES df" class="md-nav__link">
+      OpenSEES df
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../OPS_User/OPS_Parallel/" title="OpenSEES df" class="md-nav__link">
+      OpenSEES df
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -335,6 +570,27 @@
           
           
 
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="OpenSEES Python" class="md-nav__link md-nav__link--active">
+      OpenSEES Python
+    </a>
+    
+  </li>
+
+        
+          
+          
+          
+
 
   <li class="md-nav__item">
     <a href="../Tcl_Tk/" title="Tcl/Tk Language" class="md-nav__link">
@@ -347,20 +603,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="C++ Libraries and Tools" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../Cpp_Lib_Tools/" title="C++ Libraries and Tools" class="md-nav__link">
       C++ Libraries and Tools
     </a>
-    
   </li>
 
         
@@ -394,8 +641,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../Art_Int/" title="Continuum Mechanics" class="md-nav__link">
+    <a href="../../Cont_Mech/Cont_Mech/" title="Continuum Mechanics" class="md-nav__link">
       Continuum Mechanics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Structural_Dynamics/Structural_Dynamics/" title="Structural Dynamics" class="md-nav__link">
+      Structural Dynamics
     </a>
   </li>
 
@@ -407,13 +666,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
     
-    <label class="md-nav__link" for="nav-3-2">
+    <label class="md-nav__link" for="nav-3-3">
       Machine Learning
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-2">
+      <label class="md-nav__title" for="nav-3-3">
         Machine Learning
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -425,7 +684,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../Tcl_Tk/" title="Introduction" class="md-nav__link">
+    <a href="../../Machine_Learning/Introduction/" title="Introduction" class="md-nav__link">
       Introduction
     </a>
   </li>
@@ -437,7 +696,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../OPS_Ubuntu/" title="Supervised ML" class="md-nav__link">
+    <a href="../../Machine_Learning/Supervised_ML/" title="Supervised ML" class="md-nav__link">
       Supervised ML
     </a>
   </li>
@@ -449,7 +708,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../OPS_User/" title="Unsupervised ML" class="md-nav__link">
+    <a href="../../Machine_Learning/Unsupervised_ML/" title="Unsupervised ML" class="md-nav__link">
       Unsupervised ML
     </a>
   </li>
@@ -490,7 +749,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../Misc/UBUNTU_OS_Rel/" title="UBUNTU OS Related" class="md-nav__link">
+    <a href="../../Misc/UBUNTU_OS_Rel/" title="UBUNTU OS Related" class="md-nav__link">
       UBUNTU OS Related
     </a>
   </li>
@@ -502,7 +761,19 @@
 
 
   <li class="md-nav__item">
-    <a href="../Misc/Git_Rel/" title="Git Related" class="md-nav__link">
+    <a href="../../Misc/Windows_OS_Rel/" title="Windows OS Related" class="md-nav__link">
+      Windows OS Related
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Misc/Git_Rel/" title="Git Related" class="md-nav__link">
       Git Related
     </a>
   </li>
@@ -515,13 +786,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4">
     
-    <label class="md-nav__link" for="nav-4-3">
+    <label class="md-nav__link" for="nav-4-4">
       Uncategorised
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-3">
+      <label class="md-nav__title" for="nav-4-4">
         Uncategorised
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -533,7 +804,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../Misc/Practice/" title="Practice" class="md-nav__link">
+    <a href="../../Misc/Practice/" title="Practice" class="md-nav__link">
       Practice
     </a>
   </li>
@@ -577,7 +848,7 @@
               
                 
                 
-                <h1 id="c-libraries-and-tools">C++ Libraries and Tools</h1>
+                <h1 id="openseespy">OpenSEESpy</h1>
                 
                   
                 
@@ -598,7 +869,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../Tcl_Tk/" title="Tcl/Tk Language" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../OPS_Ubuntu/" title="OpenSEES UBUNTU" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -607,19 +878,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Tcl/Tk Language
+                OpenSEES UBUNTU
               </span>
             </div>
           </a>
         
         
-          <a href="../Art_Int/" title="Continuum Mechanics" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../Tcl_Tk/" title="Tcl/Tk Language" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Continuum Mechanics
+                Tcl/Tk Language
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -647,9 +918,9 @@
       
     </div>
     
-      <script src="../assets/javascripts/application.c648116f.js"></script>
+      <script src="../../assets/javascripts/application.c648116f.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       

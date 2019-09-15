@@ -12,7 +12,15 @@ nav:
 - OpenSEES: 
    - OpenSEES User: 
       - OpenSEES Seq: opensees\OPS_User\OPS_Seq.md
-      - OpenSEES Parallel: opensees\OPS_User\OPS_Parallel.md
+      - OpenSEES Parallel:
+           - OpenSEES df:
+                - OpenSEES df:
+                   - OpenSEES df: 
+                        - OpenSEES df:
+                            - OpenSEES df:
+                                - OpenSEES df: opensees\OPS_User\OPS_Parallel.md
+                                - OpenSEES df: opensees\OPS_User\OPS_Parallel.md
+                                - OpenSEES df: opensees\OPS_User\OPS_Parallel.md
    - OpenSEES VC++: opensees\OPS_VCpp.md
    - OpenSEES UBUNTU: opensees\OPS_Ubuntu.md
    - OpenSEES Python: opensees\OPS_Python.md
@@ -27,6 +35,7 @@ nav:
         - Unsupervised ML: Machine_Learning\Unsupervised_ML.md
 - Misc:
     - UBUNTU OS Related: Misc\UBUNTU_OS_Rel.md
+    - Windows OS Related: Misc\Windows_OS_Rel.md
     - Git Related: Misc\Git_Rel.md
     - Uncategorised:
         - Practice: Misc\Practice.md
@@ -78,4 +87,5 @@ markdown_extensions:
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
-
+# Google Analytics
+google_analytics: ['UA-148011093-1', 'vijaypolimeru.github.io']
