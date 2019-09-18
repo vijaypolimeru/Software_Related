@@ -994,14 +994,14 @@
 <h2 id="useful-codes">Useful Codes</h2>
 <ol>
 <li>
-<p>Generate a vector of Random Values (<code class="codehilite"><span class="n">No_of_Values</span></code>) between <code class="codehilite"><span class="k">MinValue</span></code> and <code class="codehilite"><span class="k">MaxValue</span></code>. 
+<p>Generate a vector of Random Values (<code class="codehilite">No_of_Values</code>) between <code class="codehilite">MinValue</code> and <code class="codehilite">MaxValue</code>. 
 <div class="codehilite"><pre><span></span><span class="k">function</span><span class="w"> </span>[ RandValue ] <span class="p">=</span><span class="w"> </span><span class="nf">RandomValueFunc</span><span class="p">(</span> MinValue, MaxValue, No_of_Values <span class="p">)</span><span class="w"></span>
 <span class="w">    </span><span class="n">RandValue</span> <span class="p">=</span> <span class="n">MinValue</span> <span class="o">+</span> <span class="nb">rand</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">No_of_Values</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">MaxValue</span> <span class="o">-</span> <span class="n">MinValue</span><span class="p">);</span>
 <span class="k">end</span>
 </pre></div></p>
 </li>
 <li>
-<p>Loading a file having complex file name (such as <code class="codehilite"><span class="n">Abs_12_bcd_23</span><span class="p">.</span><span class="n">txt</span></code>).
+<p>Loading a file having complex file name (such as <code class="codehilite">Abs_12_bcd_23.txt</code>).
 <div class="codehilite"><pre><span></span><span class="nb">i</span> <span class="p">=</span> <span class="mi">12</span><span class="p">;</span>
 <span class="nb">j</span> <span class="p">=</span> <span class="mi">23</span><span class="p">;</span>
 <span class="n">OutPut_dlmread</span> <span class="p">=</span> <span class="n">dlmread</span><span class="p">([</span><span class="s">&#39;Abs_&#39;</span><span class="p">,</span> <span class="n">num2str</span><span class="p">(</span><span class="nb">i</span><span class="p">),</span> <span class="s">&#39;_bcd_&#39;</span><span class="p">,</span> <span class="n">num2str</span><span class="p">(</span><span class="nb">j</span><span class="p">),</span> <span class="s">&#39;.txt&#39;</span><span class="p">]);</span> <span class="c">% using dlmread command</span>
@@ -1014,7 +1014,7 @@
 <li>Normal command
 <div class="codehilite"><pre><span></span><span class="sx">!OpenSees_Dim10000.exe &quot;run&quot;.tcl</span>
 </pre></div></li>
-<li>Within a <code class="codehilite"><span class="k">for</span></code> loop
+<li>Within a <code class="codehilite">for</code> loop
 <div class="codehilite"><pre><span></span><span class="k">for</span> <span class="nb">i</span> <span class="p">=</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1000</span>
     <span class="n">filename</span> <span class="p">=</span> <span class="p">[</span><span class="s">&#39;Abs_&#39;</span><span class="p">,</span> <span class="n">num2str</span><span class="p">(</span><span class="nb">i</span><span class="p">),</span> <span class="s">&#39;_File.tcl&#39;</span><span class="p">];</span>
     <span class="n">system</span><span class="p">([</span><span class="s">&#39;OpenSees_0db612a.exe&lt;&#39;</span><span class="p">,</span><span class="n">filename</span><span class="p">]);</span>

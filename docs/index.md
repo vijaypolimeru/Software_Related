@@ -14,5 +14,3 @@ I am Vijay Kumar. At present, I am working as a research scholar in department o
     * **Ph. D**, Structural Engineering, [IIT Bombay](http://www.iitb.ac.in/), India, 2015 - Ongoing
 	* **M.Tech**, Structural Engineering, [NIT Rourkela](https://nitrkl.ac.in/), India, 2013 - 2015
 	* **B. Tech**, Civil Engineering, [KL College of Engineering](https://www.kluniversity.in/) (affiliated to Acharya Nagarjuna University), India, 2008 - 2012
-    
-    
