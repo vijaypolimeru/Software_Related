@@ -36,7 +36,7 @@ nav:
         - Introduction: Machine_Learning\Introduction.md
         - Supervised ML: Machine_Learning\Supervised_ML.md
         - Unsupervised ML: Machine_Learning\Unsupervised_ML.md
-    - Research Review: Research_Review\Res_review.md
+    - Research Review: Research_Review/Res_review.md
 - Misc:
     - UBUNTU OS Related: Misc\UBUNTU_OS_Rel.md
     - Windows OS Related: Misc\Windows_OS_Rel.md
