@@ -9,45 +9,45 @@ site_description: A Website for Structural Engineers
 nav:
 - Home:
    - About Me: index.md
-- OpenSEES: 
-   - OpenSEES User: 
-      - OpenSEES Seq: opensees\OPS_User\OPS_Seq.md
+- OpenSEES:
+   - OpenSEES User:
+      - OpenSEES Seq: opensees/OPS_User/OPS_Seq.md
       - OpenSEES Parallel:
            - OpenSEES df:
                 - OpenSEES df:
-                   - OpenSEES df: 
+                   - OpenSEES df:
                         - OpenSEES df:
                             - OpenSEES df:
-                                - OpenSEES df: opensees\OPS_User\OPS_Parallel.md
-                                - OpenSEES df: opensees\OPS_User\OPS_Parallel.md
-                                - OpenSEES df: opensees\OPS_User\OPS_Parallel.md
-   - OpenSEES VC++: opensees\OPS_VCpp.md
-   - OpenSEES UBUNTU: opensees\OPS_Ubuntu.md
-   - OpenSEES Python: opensees\OPS_Python.md
-   - OpenSEES Gui: opensees\OPS_GUI.md
-   - Tcl/Tk Language: opensees\Tcl_Tk.md
-   - MATLAB: opensees\matlab_related.md
-   - Python: opensees\Python_Lang.md   
-   - C++ Libraries and Tools: opensees\Cpp_Lib_Tools.md
+                                - OpenSEES df: opensees/OPS_User/OPS_Parallel.md
+                                - OpenSEES df: opensees/OPS_User/OPS_Parallel.md
+                                - OpenSEES df: opensees/OPS_User/OPS_Parallel.md
+   - OpenSEES VC++: opensees/OPS_VCpp.md
+   - OpenSEES UBUNTU: opensees/OPS_Ubuntu.md
+   - OpenSEES Python: opensees/OPS_Python.md
+   - OpenSEES Gui: opensees/OPS_GUI.md
+   - Tcl/Tk Language: opensees/Tcl_Tk.md
+   - MATLAB: opensees/matlab_related.md
+   - Python: opensees/Python_Lang.md
+   - C++ Libraries and Tools: opensees/Cpp_Lib_Tools.md
 - Course Planning:
-    - Continuum Mechanics: Cont_Mech\Cont_Mech.md
-    - Structural Dynamics: Structural_Dynamics\Structural_Dynamics.md
+    - Continuum Mechanics: Cont_Mech/Cont_Mech.md
+    - Structural Dynamics: Structural_Dynamics/Structural_Dynamics.md
     - Machine Learning:
-        - Introduction: Machine_Learning\Introduction.md
-        - Supervised ML: Machine_Learning\Supervised_ML.md
-        - Unsupervised ML: Machine_Learning\Unsupervised_ML.md
-    - Research Review: Research_Review\Res_review.md
+        - Introduction: Machine_Learning/Introduction.md
+        - Supervised ML: Machine_Learning/Supervised_ML.md
+        - Unsupervised ML: Machine_Learning/Unsupervised_ML.md
+    - Research Review: Research_Review/Res_review.md
 - Misc:
-    - UBUNTU OS Related: Misc\UBUNTU_OS_Rel.md
-    - Windows OS Related: Misc\Windows_OS_Rel.md
-    - Git Related: Misc\Git_Rel.md
-    - Really Misc: Misc\Misc.md
+    - UBUNTU OS Related: Misc/UBUNTU_OS_Rel.md
+    - Windows OS Related: Misc/Windows_OS_Rel.md
+    - Git Related: Misc/Git_Rel.md
+    - Really Misc: Misc/Misc.md
     - Uncategorised:
-        - Practice: Misc\Practice.md
+        - Practice: Misc/Practice.md
 
 #########################################################
 # Theme Description .yml
-#########################################################	
+#########################################################
 
 theme:
     name: material
@@ -62,7 +62,7 @@ theme:
 
 #########################################################
 # Markdown Extensions .yml
-#########################################################	
+#########################################################
 
 markdown_extensions:
     - markdown.extensions.admonition
@@ -87,7 +87,7 @@ markdown_extensions:
 
 #########################################################
 # Javascript Extensions .yml
-#########################################################	
+#########################################################
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
