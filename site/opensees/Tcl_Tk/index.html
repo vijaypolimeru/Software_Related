@@ -647,6 +647,40 @@
     Useful Commands/Syntaxes
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ifelse-if-else-syntax-in-tcl-language-is-for-more-info" class="md-nav__link">
+    If...else if ... else, syntax in Tcl language is − (for more info)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-commenting-in-tcl" class="md-nav__link">
+    Block Commenting in tcl
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#different-types-of-loops" class="md-nav__link">
+    Different types of loops
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-functions-or-procedures" class="md-nav__link">
+    Creating functions (or procedures)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -974,6 +1008,40 @@
     Useful Commands/Syntaxes
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ifelse-if-else-syntax-in-tcl-language-is-for-more-info" class="md-nav__link">
+    If...else if ... else, syntax in Tcl language is − (for more info)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-commenting-in-tcl" class="md-nav__link">
+    Block Commenting in tcl
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#different-types-of-loops" class="md-nav__link">
+    Different types of loops
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-functions-or-procedures" class="md-nav__link">
+    Creating functions (or procedures)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -1014,15 +1082,27 @@ The use the vector <code class="codehilite"><span class="n">Variable_1</span></c
 </li>
 <li>
 <p>File with Multiple vectors of values
-<div class="codehilite"><pre><span></span>
+<div class="codehilite"><pre><span></span><span class="k">set</span> filename <span class="s2">&quot;Abc_123_Cde.out&quot;</span><span class="k">;</span> <span class="c"># Keep this file in the folder or if it is elsewhere provide location (set filename &quot;C:\badfba\asdf\Abc_123_Cde.out&quot;;)</span>
+<span class="k">set</span> File_ID <span class="k">[</span><span class="nb">open</span> <span class="nv">$filename</span> r<span class="k">];</span> <span class="c">#Load the File (Abc_123_Cde.out) and read the values i </span>
+
+<span class="k">for</span> <span class="k">{set</span> i <span class="mi">1</span><span class="k">}</span> <span class="k">{</span><span class="nv">$i</span> <span class="o">&lt;</span> <span class="nv">100</span><span class="k">}</span> <span class="k">{</span><span class="nb">incr</span> i <span class="mi">1</span><span class="k">}</span> <span class="k">{</span> <span class="c"># Say, 100 lines are there in the files with 5 Columns of equal Lengths</span>
+    <span class="nb">gets</span> <span class="nv">$File_ID</span> line
+    <span class="nb">scan</span> <span class="nv">$line</span> <span class="s2">&quot;%i %i %i %f %f&quot;</span> Data_1<span class="k">(</span><span class="nv">$i</span><span class="k">)</span> Data_2<span class="k">(</span><span class="nv">$i</span><span class="k">)</span> Data_3<span class="k">(</span><span class="nv">$i</span><span class="k">)</span> Data_4<span class="k">(</span><span class="nv">$i</span><span class="k">)</span> Data_5<span class="k">(</span><span class="nv">$i</span><span class="k">)</span> <span class="k">;</span> <span class="c"># Data_1,2,3,4 and 5 are vectors of equal length</span>
+<span class="k">}</span>
+</pre></div>
+That's it, we have loaded a file and stored its contents in different vectors. Now you can used the vectors like anyother vector in the program.
+<div class="codehilite"><pre><span></span><span class="n">foreach</span> <span class="n">i</span> <span class="err">$</span><span class="n">Data_1</span> <span class="err">{</span>
+    <span class="n">puts</span> <span class="ss">&quot;Data_1($i) \t Data_2($i) \t Data_3($i) \t Data_4($i) \t Data_5($i)&quot;</span>   
+<span class="err">}</span>  
 </pre></div></p>
+</li>
+<li>
+<p><a href="https://www.tutorialspoint.com/tcl-tk/tcl_file_io.htm">Link</a>, For more information on Tcl - File I/O,</p>
 </li>
 </ol>
 <h2 id="useful-commandssyntaxes">Useful Commands/Syntaxes</h2>
-<ol>
-<li>
-<p><strong><em>If...else if ... else</em></strong>, syntax in Tcl language is − (<a href="https://www.tutorialspoint.com/tcl-tk/tcl_if_else_statement.htm">for more info</a>)
-<div class="codehilite"><pre><span></span><span class="k">if</span> <span class="k">{</span><span class="nv">boolean_expression</span> <span class="mi">1</span><span class="k">}</span> <span class="k">{</span>
+<h3 id="ifelse-if-else-syntax-in-tcl-language-is-for-more-info"><strong><em>If...else if ... else</em></strong>, syntax in Tcl language is − (<a href="https://www.tutorialspoint.com/tcl-tk/tcl_if_else_statement.htm">for more info</a>)</h3>
+<p><div class="codehilite"><pre><span></span><span class="k">if</span> <span class="k">{</span><span class="nv">boolean_expression</span> <span class="mi">1</span><span class="k">}</span> <span class="k">{</span>
    <span class="c"># Executes when the boolean expression 1 is true</span>
 <span class="k">}</span> <span class="k">elseif</span> <span class="k">{</span><span class="nv">boolean_expression</span> <span class="mi">2</span><span class="k">}</span> <span class="k">{</span>
    <span class="c"># Executes when the boolean expression 2 is true </span>
@@ -1045,16 +1125,13 @@ set ok <span class="k">[</span><span class="nv">analyze</span> <span class="mi">
 <span class="k">}</span>
 </pre></div>
 If the Boolean expression evaluates to true, then the if block of code will be executed, otherwise the elseif block of code will be executed, otherwise the else block of code will be executed.</p>
-</li>
-<li>
-<p>Block Commenting in tcl
+<h3 id="block-commenting-in-tcl"><strong><em>Block Commenting</em></strong> in tcl</h3>
 <div class="codehilite"><pre><span></span><span class="k">if</span> <span class="mi">0</span> <span class="k">{</span>
     <span class="nv">Anything</span> you write here will be treated as a comment and ignored 
 <span class="k">}</span>
-</pre></div></p>
-</li>
-<li>
-<p>Different types of <strong><em>loops</em></strong></p>
+</pre></div>
+
+<h3 id="different-types-of-loops">Different types of <strong><em>loops</em></strong></h3>
 <ol>
 <li>
 <p><code class="codehilite"><span class="k">for</span></code> Loop
@@ -1091,9 +1168,77 @@ or
 <span class="k">}</span>   
 </pre></div></p>
 </li>
-<li>Creating <strong><em>functions (or procedures)</em></strong>
-<div class="codehilite"><pre><span></span>
-</pre></div></li>
+</ol>
+<h3 id="creating-functions-or-procedures">Creating <strong><em>functions (or procedures)</em></strong></h3>
+<p>Tcl Procedures are similar to the functions in other programming languages. They basically avoid repeating the same code
+at multiple locations. Procedures are created using <code class="codehilite"><span class="n">Proc</span></code> command. A simple Procedure has the following syntax
+<div class="codehilite"><pre><span></span><span class="k">proc</span> procedureName <span class="k">{</span><span class="nv">arguments</span><span class="k">}</span> <span class="k">{</span>
+   <span class="nv">body</span> of code
+   <span class="k">return</span> <span class="nv">$var</span>
+<span class="k">}</span>
+</pre></div></p>
+<ol>
+<li>
+<p><strong><em>Example - 1</em></strong>, Definition of a simple <code class="codehilite"><span class="n">proc</span></code> to check <code class="codehilite"><span class="n">puts</span></code> command
+<div class="codehilite"><pre><span></span><span class="k">proc</span> CheckPutsCommand <span class="k">{}</span> <span class="k">{</span> <span class="err">;</span><span class="c"># No Input Arguments</span>
+   <span class="nb">puts</span> <span class="s2">&quot;Hurray, Puts is working&quot;</span>
+
+<span class="k">}</span>
+<span class="nv">CheckPutsCommand</span>
+</pre></div>
+Upon exection, following output will be printed in the console (<em>Note</em>, <code class="codehilite"><span class="n">proc</span></code> name is case-sensitive, both calling and defining names should be same)
+<div class="codehilite"><pre><span></span><span class="n">Hurray</span><span class="p">,</span> <span class="n">Puts</span> <span class="k">is</span> <span class="n">working</span>
+</pre></div></p>
+</li>
+<li>
+<p><strong><em>Example - 2</em></strong>, Definition of a <code class="codehilite"><span class="n">proc</span></code> with Multiple but single valued arguments
+<div class="codehilite"><pre><span></span><span class="k">proc</span> AddNumbers <span class="k">{</span> <span class="nv">a</span> b<span class="k">}</span> <span class="k">{</span> <span class="err">;</span><span class="c"># Input Arguments</span>
+   <span class="k">set</span> sum <span class="k">[expr</span> <span class="nv">$a</span> <span class="o">+</span> <span class="nv">$b</span><span class="k">]</span>
+   <span class="k">return</span> <span class="nv">$sum</span><span class="k">;</span>
+
+<span class="k">}</span>
+<span class="nv">AddNumbers</span> <span class="mi">10</span> <span class="mi">30</span>
+</pre></div>
+Upon exection, following output will be printed in the console
+<div class="codehilite"><pre><span></span><span class="mi">40</span>
+</pre></div></p>
+</li>
+<li>
+<p><strong><em>Example - 3</em></strong>, Definition of a <code class="codehilite"><span class="n">proc</span></code> with <strong><em>Multiple Variable</em></strong> arguments (each argument is a vector)
+<div class="codehilite"><pre><span></span><span class="k">proc</span> CalculateMean <span class="k">{</span> <span class="nv">InputData</span> <span class="k">}</span> <span class="k">{</span> <span class="err">;</span><span class="c"># Input Arguments</span>
+   <span class="k">set</span> Sum <span class="mi">0</span><span class="k">;</span>
+   <span class="k">foreach</span> InputData_i <span class="nv">$InputData</span> <span class="k">{</span>
+     <span class="k">set</span> Sum <span class="k">[expr</span> <span class="nv">$Sum</span> <span class="o">+</span> <span class="nv">$InputData_i</span><span class="k">]</span>
+   <span class="k">}</span>
+   <span class="k">set</span> Mean <span class="k">[expr</span> <span class="nv">$Sum</span><span class="o">/</span><span class="k">[</span><span class="nb">llength</span> <span class="nv">$InputData</span><span class="k">]];</span> <span class="c"># llength is inbuilt command, which returns the number of elements in the argument</span>
+   <span class="k">return</span> <span class="nv">$Mean</span><span class="k">;</span> 
+<span class="k">}</span>
+<span class="k">set</span> Mean_1 <span class="k">[expr</span> <span class="k">[</span><span class="nv">CalculateMean</span> <span class="k">{</span><span class="nv">10</span> <span class="mi">30</span><span class="k">}]</span> <span class="o">+</span> <span class="k">[</span><span class="nv">CalculateMean</span> <span class="k">{</span><span class="nv">10</span> <span class="mi">30</span> <span class="mi">40</span> <span class="mi">50</span> <span class="mi">60</span><span class="k">}]];</span> 
+<span class="k">set</span> Mean_2 <span class="k">[expr</span> <span class="k">[</span><span class="nv">CalculateMean</span> <span class="k">{</span><span class="nv">30</span> <span class="k">{[</span><span class="nv">CalculateMean</span> <span class="k">{</span><span class="nv">10</span> <span class="mi">30</span><span class="k">}]}}]];</span> <span class="c"># slightly difficult command *giving `proc` as an argument*</span>
+<span class="nb">puts</span> <span class="s2">&quot;Mean_1 = $Mean_1 \t Mean_2 = $Mean_2&quot;</span>
+</pre></div>
+Upon exection, following output will be printed in the console (<em>Note</em>, Be careful while using braces, <code class="codehilite"><span class="n">tcl</span></code> is very bad at exception handling)
+<div class="codehilite"><pre><span></span><span class="n">Mean_1</span> <span class="o">=</span> <span class="mi">58</span>      <span class="n">Mean_2</span> <span class="o">=</span> <span class="mi">25</span>
+</pre></div></p>
+</li>
+<li>
+<p><strong><em>Example - 4</em></strong>, Definition of a <code class="codehilite"><span class="n">proc</span></code> with <strong><em>Default arguments</em></strong>
+<div class="codehilite"><pre><span></span><span class="k">proc</span> Multiply_a_and_b <span class="k">{</span> <span class="nv">a</span> <span class="k">{</span><span class="nv">b</span> <span class="mi">10</span><span class="k">}</span> <span class="k">}</span> <span class="k">{</span> <span class="err">;</span><span class="c"># Input Arguments</span>
+<span class="k">set</span> Product <span class="k">[expr</span> <span class="nv">$a</span><span class="o">*</span><span class="nv">$b</span><span class="k">]</span>
+   <span class="k">return</span> <span class="nv">$Product</span><span class="k">;</span> 
+<span class="k">}</span>
+
+<span class="nb">puts</span> <span class="k">[</span><span class="nv">Multiply_a_and_b</span> <span class="mi">10</span> <span class="mi">20</span><span class="k">]</span>
+<span class="nb">puts</span> <span class="k">[</span><span class="nv">Multiply_a_and_b</span> <span class="mi">10</span><span class="k">]</span>
+</pre></div>
+Upon exection, following output will be printed in the console (<em>Note</em>, Be careful while using braces, <code class="codehilite"><span class="n">tcl</span></code> is very bad at exception handling)
+<div class="codehilite"><pre><span></span><span class="mi">200</span>
+<span class="mi">100</span>
+</pre></div></p>
+</li>
+<li><strong><em>NOTES</em></strong> - <ol>
+<li>While calling the funtion, if the function is located elsewhere you have to call the file also using <code class="codehilite"><span class="k">source</span> <span class="k">C</span><span class="p">:</span><span class="err">\</span><span class="n">bladdh</span><span class="err">\</span><span class="n">adfadsff</span><span class="err">\</span><span class="n">filename</span><span class="p">.</span><span class="n">tcl</span></code> before calling the function. (like we call the header files in <code class="codehilite"><span class="k">c</span></code> or <code class="codehilite"><span class="k">c</span><span class="o">++</span></code> languages). </li>
+<li>You can define any number of <code class="codehilite"><span class="n">procs</span></code> in a file.</li>
 </ol>
 </li>
 </ol>
