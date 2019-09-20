@@ -839,9 +839,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ignoring-files-that-have-already-been-committed-to-the-rrepo" class="md-nav__link">
-    Ignoring Files That Have Already Been Committed to the Rrepo
+  <a href="#useful-commandsprocesses" class="md-nav__link">
+    Useful Commands/Processes
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ignoring-files-that-have-already-been-committed-to-the-repo" class="md-nav__link">
+    Ignoring Files That Have Already Been Committed to the Repo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commiting-changes-made-only-in-a-directory-or-sub-directory-within-a-git-repo" class="md-nav__link">
+    Commiting Changes Made Only in a Directory (or) Sub-Directory Within a git Repo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-a-commit-message" class="md-nav__link">
+    Changing a Commit Message
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-bash-vs-git-gui-relative-advantages-and-disadvantages" class="md-nav__link">
+    Git-Bash vs Git-GUI, Relative Advantages and Disadvantages
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -930,9 +964,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ignoring-files-that-have-already-been-committed-to-the-rrepo" class="md-nav__link">
-    Ignoring Files That Have Already Been Committed to the Rrepo
+  <a href="#useful-commandsprocesses" class="md-nav__link">
+    Useful Commands/Processes
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ignoring-files-that-have-already-been-committed-to-the-repo" class="md-nav__link">
+    Ignoring Files That Have Already Been Committed to the Repo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commiting-changes-made-only-in-a-directory-or-sub-directory-within-a-git-repo" class="md-nav__link">
+    Commiting Changes Made Only in a Directory (or) Sub-Directory Within a git Repo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-a-commit-message" class="md-nav__link">
+    Changing a Commit Message
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-bash-vs-git-gui-relative-advantages-and-disadvantages" class="md-nav__link">
+    Git-Bash vs Git-GUI, Relative Advantages and Disadvantages
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -954,7 +1022,8 @@
                 
                 
                 <h1 id="git-related">Git Related...</h1>
-<h2 id="ignoring-files-that-have-already-been-committed-to-the-rrepo">Ignoring Files That Have Already Been Committed to the Rrepo</h2>
+<h2 id="useful-commandsprocesses">Useful Commands/Processes</h2>
+<h3 id="ignoring-files-that-have-already-been-committed-to-the-repo">Ignoring Files That Have Already Been Committed to the Repo</h3>
 <p>Git can only ignore files that are <em>untracked</em> - files that haven't been committed to the repository, yet. That's why, when you create a new repository, you should also create a <code class="codehilite"><span class="na">.gitignore</span></code> file with all the file patterns you want to ignore.
 However its very difficult to know upfornt about all the file types that you want to be ignored.</p>
 <p>Before cleaning the git repository, </p>
@@ -968,6 +1037,28 @@ However its very difficult to know upfornt about all the file types that you wan
 $ git add .
 $ git commit -m <span class="s2">&quot;Clean up ignored files&quot;</span>
 </pre></div>
+
+<h3 id="commiting-changes-made-only-in-a-directory-or-sub-directory-within-a-git-repo">Commiting Changes Made Only in a Directory (or) Sub-Directory Within a git Repo</h3>
+<p>Some times, it is necessary to commit only the changes made in a sub-directory within the git working directory. Follwing procedure helps to do that,</p>
+<ol>
+<li>Go to the sub-directory, whose files you want to commit (you can do this in two ways, 1. open <strong>git bash</strong> and navigate to the desired sub-directory using <code class="codehilite"><span class="n">cd</span></code> command 2. Go to the desired sub-directory and open <strong>git bash</strong> there)</li>
+<li>After you are in the sub-directory,<ol>
+<li><code class="codehilite"><span class="n">git</span> <span class="n">status</span> <span class="p">.</span></code> - To view all the modifed and untracked files in that sub-directory and  sub-sub-..-directories relative to the chosen sub-directory</li>
+<li><code class="codehilite"><span class="n">git</span> <span class="k">add</span> <span class="p">.</span></code> - To add all the modifed and untracked files in that sub-directory and  sub-sub-...-directories relative to the chosen sub-directory to the staging.<ol>
+<li>If you don't want to add files, then replace <code class="codehilite"><span class="p">.</span></code> (dot) with appropiate <code class="codehilite"><span class="n">file</span> <span class="n">name</span><span class="p">.</span><span class="n">exten</span></code> such as <code class="codehilite"><span class="n">git</span> <span class="k">add</span> <span class="ss">&quot;GMData\File Name.txt&quot;</span></code> (double-quotes are necessary only if there are spaces in the file path)</li>
+</ol>
+</li>
+<li><code class="codehilite"><span class="n">git</span> <span class="k">commit</span> <span class="o">-</span><span class="n">m</span> <span class="ss">&quot;Commit Summary (or) Messgage&quot;</span></code> - To commit all the staged files</li>
+</ol>
+</li>
+</ol>
+<h3 id="changing-a-commit-message">Changing a Commit Message</h3>
+<ol>
+<li><strong><em>Committed but not pushed to the remote Repo</em></strong> - In this case type <code class="codehilite"><span class="n">git</span> <span class="k">commit</span> <span class="c1">--amend</span></code> in <em>git bash</em>, a text file will open, there edit the message then save and then close it. Your wrong message will be updated with the right one. If you don't want a text file, then type <code class="codehilite"><span class="n">git</span> <span class="k">commit</span> <span class="c1">--amend -m &quot;Right Message&quot;</span></code></li>
+<li><strong><em>Changing the Message of Most Recently Pushed Commit</em></strong> - In this case follow the steps mentioned in point 1. Then use <code class="codehilite"><span class="n">git</span> <span class="n">push</span> <span class="c1">--force</span></code>, it commits to the master-branch, if you are changing the message in branch other than master-branch then type <code class="codehilite"><span class="n">git</span> <span class="n">push</span> <span class="c1">--force example-branch</span></code></li>
+</ol>
+<h3 id="git-bash-vs-git-gui-relative-advantages-and-disadvantages">Git-Bash vs Git-GUI, Relative Advantages and Disadvantages</h3>
+<p>A better answer will come soon, untill then try to do the operations listed in the above sections in any Git-GUI, you will come to know, why Git-Bash is much superieor to any Git-GUI...</p>
                 
                   
                 
