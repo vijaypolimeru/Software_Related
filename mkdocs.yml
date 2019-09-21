@@ -30,7 +30,11 @@ nav:
    - Python: opensees/Python_Lang.md
    - C++ Libraries and Tools: opensees/Cpp_Lib_Tools.md
 - Course Planning:
-    - Continuum Mechanics: Cont_Mech/Cont_Mech.md
+    - Continuum Mechanics:
+         - Introduction: Cont_Mech/Cont_Mech.md
+         - Worksheets:
+             - Worksheet 3: Cont_Mech/Work_Sheet_3.md
+             - Mid-Sem: Cont_Mech/Mid_Sem.md
     - Structural Dynamics: Structural_Dynamics/Structural_Dynamics.md
     - Machine Learning:
         - Introduction: Machine_Learning/Introduction.md
