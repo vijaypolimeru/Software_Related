@@ -1,17 +1,21 @@
 # Worksheet 3
 
-!!! Question - "Question - 1"
+## Question - 1
+
+!!! Question - "Question"
 	Suppose that $T:V \rightarrow V$ is a linear map. Show that $\mathit D_vT = T$ for every $v \in V$.
 	
-	**Solution**
+??? Answer - "Solution"
 	
-!!! Question - "Question - 2"
+## Question - 2	
+	
+!!! Question - "Question"
 	Consider the function $\phi:V \rightarrow \mathbb R$ where $\phi (v) = \lVert v\rVert^2$.
 	
 	1. Is $\phi$ linear
 	2. Compute $\partial_v \phi(v)$
 	
-	**Solution**
+??? Answer - "Solution"
 	
 	*Part - 1*
 	
@@ -37,37 +41,47 @@
 	\end{aligned} 	
 	$$
 	
+## Question - 3	
 	
-	
-!!! Question - "Question - 3"
+!!! Question - "Question"
 	Consider the function $\psi:V \rightarrow \mathbb R$ defined as $\psi (v) = v\cdot Av$, where $A \in L(V, V)$. Show that $\partial_v \psi(v) = (A^T + A)v$
 	
-	**Solution**
+??? Answer - "Solution"
+
+## Question - 4
 	
-!!! Question - "Question - 4"
+!!! Question - "Question"
 	Consider the function $\psi:L(V, V) \rightarrow \mathbb R$ defined as $\psi(A) = v \cdot Av$, for every $A \in L(V, V)$ and fixed $u, v \in V$. Show that $\partial_A \psi(A) = u \otimes v$
 		
-	**Solution**
+??? Answer - "Solution"
 	
-!!! Question - "Question - 5"
+## Question - 5	
+	
+!!! Question - "Question"
 	Recall that the trace and determinant of a linear map are functions that take a linear map $A \in L(V, V)$ and return the real numbers $tr(A)$ and $det(A)$, respectively. Show that
 	
 	1. $\partial_A \mathrm{tr}(A) = I$
 	2. $\partial_A \mathrm{det}(A) = \mathrm{det}(A) A^{-T}$
 	
-	**Solution**
+??? Answer - "Solution"
+
+## Question - 6
 	
-!!! Question - "Question - 6"
+!!! Question - "Question"
 	Define the function $\mathcal I : \mathrm {GL}(V) \rightarrow \mathrm {GL}(V)$ as $\mathcal I(A) = A^{-1}$ for every $A \in \mathrm {GL}(V)$. Show that for any $H \in L(V, V)$, $\partial_A \mathcal I(A) \cdot H = -A^{-1}HA^{-1}$
 		
-	**Solution**
+??? Answer - "Solution"
+
+## Question - 7
 	
-!!! Question - "Question - 7"
+!!! Question - "Question"
 	For any $A \in L(V, V)$, show that $\partial_A\mathrm {tr}(A^k) = k(A^{k-1})^T$
 		
-	**Solution**	
+??? Answer - "Solution"
+
+## Question - 8
 	
-!!! Question - "Question - 8"
+!!! Question - "Question"
 	Let $A \in L(V, V)$ be a linear map on a three dimensional vector space $V$. Recall that we can associate with each $A \in L(V, V)$ the invariants $I_i(A), i = 1, 2, 3$. Show that
 	
 	1. $\partial_AI_1(A) = \pmb I$
@@ -76,6 +90,6 @@
 	
 	(*Hint*. Use the fact that $A$ satisfies its own characteristic equation, according to the Cayley-Hamilton theorem)
 		
-	**Solution**		
+??? Answer - "Solution"	
 	
 	

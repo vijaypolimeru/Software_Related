@@ -33,8 +33,11 @@ nav:
     - Continuum Mechanics:
          - Introduction: Cont_Mech/Cont_Mech.md
          - Worksheets:
-             - Worksheet 3: Cont_Mech/Work_Sheet_3.md
-             - Mid-Sem: Cont_Mech/Mid_Sem.md
+            - Worksheet 1: Cont_Mech/Work_Sheet_1.md
+            - Worksheet 2: Cont_Mech/Work_Sheet_2.md
+            - Worksheet 3: Cont_Mech/Work_Sheet_3.md
+            - Worksheet 4: Cont_Mech/Work_Sheet_4.md
+            - Mid-Sem: Cont_Mech/Mid_Sem.md
     - Structural Dynamics: Structural_Dynamics/Structural_Dynamics.md
     - Machine Learning:
         - Introduction: Machine_Learning/Introduction.md
