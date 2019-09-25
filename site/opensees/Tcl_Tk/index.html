@@ -223,6 +223,10 @@
         
   
   
+    
+    
+  
+  
     <li class="md-tabs__item">
       
         <a href="../../Cont_Mech/Cont_Mech/" class="md-tabs__link">
@@ -230,6 +234,8 @@
         </a>
       
     </li>
+  
+
   
 
       
@@ -678,6 +684,54 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#operations-on-arrays" class="md-nav__link">
+    Operations on Arrays
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conventional-arrays" class="md-nav__link">
+    Conventional Arrays
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#associative-arrays" class="md-nav__link">
+    Associative Arrays
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-misc-commands-on-array-operations" class="md-nav__link">
+    Other Misc Commands on Array Operations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operations-on-lists" class="md-nav__link">
+    Operations on Lists
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operations-on-dictionaries" class="md-nav__link">
+    Operations on Dictionaries
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -759,10 +813,34 @@
           
 
 
-  <li class="md-nav__item">
-    <a href="../../Cont_Mech/Cont_Mech/" title="Continuum Mechanics" class="md-nav__link">
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
       Continuum Mechanics
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Continuum Mechanics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cont_Mech/Cont_Mech/" title="Introduction" class="md-nav__link">
+      Introduction
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -927,15 +1005,27 @@
           
 
 
+  <li class="md-nav__item">
+    <a href="../../Misc/MyDictionary/" title="Word Base" class="md-nav__link">
+      Word Base
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6">
     
-    <label class="md-nav__link" for="nav-4-5">
+    <label class="md-nav__link" for="nav-4-6">
       Uncategorised
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-5">
+      <label class="md-nav__title" for="nav-4-6">
         Uncategorised
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -1035,6 +1125,54 @@
           <li class="md-nav__item">
   <a href="#creating-functions-or-procedures" class="md-nav__link">
     Creating functions (or procedures)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operations-on-arrays" class="md-nav__link">
+    Operations on Arrays
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conventional-arrays" class="md-nav__link">
+    Conventional Arrays
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#associative-arrays" class="md-nav__link">
+    Associative Arrays
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-misc-commands-on-array-operations" class="md-nav__link">
+    Other Misc Commands on Array Operations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operations-on-lists" class="md-nav__link">
+    Operations on Lists
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operations-on-dictionaries" class="md-nav__link">
+    Operations on Dictionaries
   </a>
   
 </li>
@@ -1242,6 +1380,139 @@ Upon exection, following output will be printed in the console (<em>Note</em>, B
 </ol>
 </li>
 </ol>
+<h3 id="operations-on-arrays">Operations on <strong><em>Arrays</em></strong></h3>
+<p>Tcl supports two types of arrays, </p>
+<ol>
+<li>Conventional Array - In which a group of elements (numbers or strings) are systematically arranged using <strong><em>Indices</em></strong>.</li>
+<li>Associative Array - In which a group of elements (numbers or strings) are systematically arranged using <strong><em>Indices</em></strong> which are not necessarily a number.</li>
+</ol>
+<h4 id="conventional-arrays">Conventional Arrays</h4>
+<p>Syntaxes</p>
+<ol>
+<li>The syntax for a <em>creating</em> conventional array is <code class="codehilite"><span class="k">set</span> <span class="n">ArrayName</span><span class="p">(</span><span class="k">Index</span><span class="p">)</span> <span class="n">Value</span></code> (Value - can be a number or string, Index - Is a +Ve Integer starting from <code class="codehilite"><span class="mi">0</span></code>). These Indices are also called <code class="codehilite"><span class="n">Keys</span></code> </li>
+<li>The syntax for a <em>calling</em> conventional array is <code class="codehilite"><span class="err">$</span><span class="n">ArrayName</span><span class="p">(</span><span class="n">Index_Value</span><span class="p">)</span></code>, if you know the index value. If index value is stored in another varaible then <code class="codehilite"><span class="err">$</span><span class="n">ArrayName</span><span class="p">(</span><span class="err">$</span><span class="n">Index_Value</span><span class="p">)</span></code>.</li>
+<li>The syntax for finding the Array Size is <code class="codehilite"><span class="k">set</span> <span class="n">Size_Variable_Name</span> <span class="p">[</span><span class="nb">array</span> <span class="k">size</span> <span class="n">ArrayName</span><span class="p">]</span></code>- It is a type of expression whose output is an integer and must be stored in a variable.</li>
+</ol>
+<p>Examples on <em>conventional arrays</em></p>
+<ol>
+<li>Basic Operations
+    <div class="codehilite"><pre><span></span><span class="k">set</span> Num_Array<span class="k">(</span><span class="nv">0</span><span class="k">)</span> <span class="mi">1</span><span class="k">;</span>
+<span class="k">set</span> Num_Array<span class="k">(</span><span class="nv">1</span><span class="k">)</span> <span class="mf">1.5</span><span class="k">;</span>
+<span class="k">set</span> Num_Array<span class="k">(</span><span class="nv">2</span><span class="k">)</span> <span class="k">[expr</span> <span class="mf">2.0</span><span class="o">/</span><span class="mf">3.0</span><span class="k">];</span>
+<span class="k">set</span> Num_Array<span class="k">(</span><span class="nv">3</span><span class="k">)</span> Vijay<span class="k">;</span> <span class="c"># No Spaces</span>
+<span class="k">set</span> Num_Array<span class="k">(</span><span class="nv">4</span><span class="k">)</span> <span class="s2">&quot;Vijay Kumar&quot;</span><span class="k">;</span> <span class="c"># With Spaces, double quotes are necessary otherwise it is an error (wrong # args: should be &quot;set varName ?newValue?&quot;)</span>
+
+<span class="k">set</span> Size_Num_Array <span class="k">[array</span> size Num_Array<span class="k">];</span> <span class="c"># it returns 5</span>
+
+
+<span class="nb">puts</span> <span class="s2">&quot;Num_Array(0) = $Num_Array(0) \n&quot;</span><span class="k">;</span>
+<span class="nb">puts</span> <span class="s2">&quot;Num_Array(1) = $Num_Array(1) \n&quot;</span><span class="k">;</span>
+<span class="nb">puts</span> <span class="s2">&quot;Num_Array(2) = $Num_Array(2) \n&quot;</span><span class="k">;</span>
+<span class="nb">puts</span> <span class="s2">&quot;Num_Array(3) = $Num_Array(3) \n&quot;</span><span class="k">;</span>
+<span class="nb">puts</span> <span class="s2">&quot;Num_Array(4) = $Num_Array(4) \n&quot;</span><span class="k">;</span>
+<span class="nb">puts</span> <span class="s2">&quot;Size_Num_Array = $Size_Num_Array \n&quot;</span><span class="k">;</span> <span class="c"># $Size_Num_Array(0) is an error (can&#39;t read &quot;Size_Num_Array(0)&quot;: variable isn&#39;t array)</span>
+</pre></div>
+    or
+    <div class="codehilite"><pre><span></span><span class="k">set</span> Index_Value <span class="mi">0</span><span class="k">;</span>
+<span class="nb">puts</span> <span class="s2">&quot;Num_Array($Index_Value) = $Num_Array($Index_Value) \n&quot;</span><span class="k">;</span>
+</pre></div></li>
+<li>
+<p>Array Iteration</p>
+<div class="codehilite"><pre><span></span><span class="k">for</span> <span class="k">{</span> <span class="k">set</span> Index_Value <span class="mi">0</span> <span class="k">}</span>  <span class="k">{</span> <span class="nv">$Index_Value</span> <span class="o">&lt;</span> <span class="k">[array</span> size Num_Array<span class="k">]</span> <span class="k">}</span>  <span class="k">{</span> <span class="nb">incr</span> Index_Value <span class="k">}</span> <span class="k">{</span>
+    <span class="nb">puts</span> <span class="s2">&quot;Num_Array($Index_Value) = $Num_Array($Index_Value) \n&quot;</span><span class="k">;</span>
+<span class="k">}</span>
+</pre></div>
+
+</li>
+</ol>
+<h4 id="associative-arrays">Associative Arrays</h4>
+<ol>
+<li>The syntax for a <em>creating</em> Associative array is <code class="codehilite"><span class="k">set</span> <span class="n">ArrayName</span><span class="p">(</span><span class="n">Index_ID</span><span class="p">)</span> <span class="n">Value</span></code> (Value - can be a number or string, Index_ID - can also be a number or string). </li>
+<li>The syntax for a <em>calling</em> conventional array is <code class="codehilite"><span class="err">$</span><span class="n">ArrayName</span><span class="p">(</span><span class="n">Index_ID</span><span class="p">)</span></code>, if you know the Index_ID else first you must know all the Index_IDs. To know the index_ids use <code class="codehilite"><span class="k">set</span> <span class="n">Index_ID_List</span> <span class="p">[</span><span class="nb">array</span> <span class="k">names</span> <span class="n">ArrayName</span><span class="p">];</span></code> this sets all the index_ids in a list named <code class="codehilite"><span class="n">Index_ID_List</span></code> (you can use any name here) in a random order.</li>
+<li>The syntax for finding the Array Size is <code class="codehilite"><span class="k">set</span> <span class="n">Size_Variable_Name</span> <span class="p">[</span><span class="nb">array</span> <span class="k">size</span> <span class="n">ArrayName</span><span class="p">]</span></code>- It is a type of expression whose output is an integer and must be stored in a variable.</li>
+</ol>
+<p>Examples on <em>Associative arrays</em></p>
+<ol>
+<li>
+<p>Basic Operations</p>
+<div class="codehilite"><pre><span></span><span class="k">set</span> Ass_Array<span class="k">(</span><span class="nv">Age</span><span class="k">)</span> <span class="mi">1</span><span class="k">;</span>
+<span class="k">set</span> Ass_Array<span class="k">(</span><span class="nv">Height</span><span class="k">)</span> <span class="mf">1.5</span><span class="k">;</span>
+<span class="k">set</span> Ass_Array<span class="k">(</span><span class="nv">1</span><span class="k">)</span> <span class="k">[expr</span> <span class="mf">2.0</span><span class="o">/</span><span class="mf">3.0</span><span class="k">];</span> <span class="c"># Index ID can also be a number</span>
+<span class="k">set</span> Ass_Array<span class="k">(</span><span class="nv">3.5</span><span class="k">)</span> <span class="k">[expr</span> <span class="mi">10</span><span class="o">/</span><span class="mi">5</span><span class="k">];</span> <span class="c"># Index ID can also be a floating point number</span>
+<span class="k">set</span> Ass_Array<span class="k">(</span><span class="nv">Name</span><span class="k">)</span> My_Name<span class="k">;</span> <span class="c"># No Spaces</span>
+<span class="k">set</span> Ass_Array<span class="k">(</span><span class="nv">Full_Name</span><span class="k">)</span> <span class="s2">&quot;My Full Name&quot;</span><span class="k">;</span> 
+
+<span class="nb">puts</span> <span class="s2">&quot;$Ass_Array(Full_Name)&quot;</span>
+
+<span class="k">set</span> Size_Ass_Array <span class="k">[array</span> size Ass_Array<span class="k">];</span> <span class="c"># it returns 5</span>
+<span class="k">set</span> A <span class="k">[array</span> names Ass_Array<span class="k">];</span> <span class="c"># or simply use</span>
+<span class="nb">puts</span> <span class="k">[array</span> names Ass_Array<span class="k">];</span> <span class="nv">to</span> print the index_ids
+</pre></div>
+
+</li>
+<li>
+<p>Array Iteration</p>
+<div class="codehilite"><pre><span></span><span class="k">foreach</span> index_ids <span class="k">[array</span> names Ass_Array<span class="k">]</span> <span class="k">{</span>
+   <span class="nb">puts</span> <span class="s2">&quot;Ass_Array($index_ids): $Ass_Array($index_ids)&quot;</span>
+<span class="k">}</span>
+</pre></div>
+
+</li>
+</ol>
+<p><strong><em>Note</em></strong> - Use <code class="codehilite"><span class="k">for</span></code> loop for conventional arrays and <code class="codehilite"><span class="n">foreach</span></code> loop for associative arrays</p>
+<h4 id="other-misc-commands-on-array-operations">Other Misc Commands on <strong><em>Array</em></strong> Operations</h4>
+<p><strong><em>Note</em></strong> - Following content is directly copied from <a href="https://www.astro.princeton.edu/~rhl/Tcl-Tk_docs/tcl/array.n.html">the website</a>. At present, even I am not sure what is happening here, I Will imporve it with more detailed examples soon...</p>
+<hr />
+<p>General syntax for operating on array varibale is <code class="codehilite"><span class="nb">array</span> <span class="k">option</span> <span class="n">arrayname</span><span class="o">?</span> <span class="n">arg1</span> <span class="n">arg2</span> <span class="p">...</span> <span class="n">argn</span><span class="o">?</span></code>. Follwoing are the commands available for array manipulations</p>
+<ol>
+<li>
+<p><strong><em>array anymore arrayName searchId</em></strong> - </p>
+<p>Returns 1 if there are any more elements left to be processed in an array search, 0 if all elements have already been returned. SearchId indicates which search on arrayName to check, and must have been the return value from a previous invocation of array startsearch. This option is particularly useful if an array has an element with an empty name, since the return value from array nextelement won't indicate whether the search has been completed.</p>
+</li>
+<li>
+<p><strong><em>array donesearch arrayName searchId</em></strong> - </p>
+<p>This command terminates an array search and destroys all the state associated with that search. SearchId indicates which search on arrayName to destroy, and must have been the return value from a previous invocation of array startsearch. Returns an empty string.</p>
+</li>
+<li>
+<p><strong><em>array exists arrayName</em></strong> - </p>
+<p>Returns 1 if arrayName is an array variable, 0 if there is no variable by that name or if it is a scalar variable.</p>
+</li>
+<li>
+<p><strong><em>array get arrayName ?pattern?</em></strong> - </p>
+<p>Returns a list containing pairs of elements. The first element in each pair is the name of an element in arrayName and the second element of each pair is the value of the array element. The order of the pairs is undefined. If pattern is not specified, then all of the elements of the array are included in the result. If pattern is specified, then only those elements whose names match pattern (using the matching rules of string match) are included. If arrayName isn't the name of an array variable, or if the array contains no elements, then an empty list is returned.</p>
+</li>
+<li>
+<p><strong><em>array names arrayName ?mode? ?pattern?</em></strong> - </p>
+<p>Returns a list containing the names of all of the elements in the array that match pattern. Mode may be one of -exact, -glob, or -regexp. If specified, mode designates which matching rules to use to match pattern against the names of the elements in the array. If not specified, mode defaults to -glob. See the documentation for string match for information on glob style matching, and the documentation for regexp for information on regexp matching. If pattern is omitted then the command returns all of the element names in the array. If there are no (matching) elements in the array, or if arrayName isn't the name of an array variable, then an empty string is returned.</p>
+</li>
+<li>
+<p><strong><em>array nextelement arrayName searchId</em></strong> - </p>
+<p>Returns the name of the next element in arrayName, or an empty string if all elements of arrayName have already been returned in this search. The searchId argument identifies the search, and must have been the return value of an array startsearch command. Warning: if elements are added to or deleted from the array, then all searches are automatically terminated just as if array donesearch had been invoked; this will cause array nextelement operations to fail for those searches.</p>
+</li>
+<li>
+<p><strong><em>array set arrayName list</em></strong> - </p>
+<p>Sets the values of one or more elements in arrayName. list must have a form like that returned by array get, consisting of an even number of elements. Each odd-numbered element in list is treated as an element name within arrayName, and the following element in list is used as a new value for that array element. If the variable arrayName does not already exist and list is empty, arrayName is created with an empty array value.</p>
+</li>
+<li>
+<p><strong><em>array size arrayName</em></strong> - </p>
+<p>Returns a decimal string giving the number of elements in the array. If arrayName isn't the name of an array then 0 is returned.</p>
+</li>
+<li>
+<p><strong><em>array startsearch arrayName</em></strong> - </p>
+<p>This command initializes an element-by-element search through the array given by arrayName, such that invocations of the array nextelement command will return the names of the individual elements in the array. When the search has been completed, the array donesearch command should be invoked. The return value is a search identifier that must be used in array nextelement and array donesearch commands; it allows multiple searches to be underway simultaneously for the same array. It is currently more efficient and easier to use either the array get or array names, together with foreach, to iterate over all but very large arrays. See the examples below for how to do this.</p>
+</li>
+<li>
+<p><strong><em>array statistics arrayName</em></strong> - </p>
+<p>Returns statistics about the distribution of data within the hashtable that represents the array. This information includes the number of entries in the table, the number of buckets, and the utilization of the buckets.</p>
+</li>
+<li>
+<p><strong><em>array unset arrayName ?pattern?</em></strong> - </p>
+<p>Unsets all of the elements in the array that match pattern (using the matching rules of string match). If arrayName isn't the name of an array variable or there are no matching elements in the array, no error will be raised. If pattern is omitted and arrayName is an array variable, then the command unsets the entire array. The command always returns an empty string. </p>
+</li>
+</ol>
+<hr />
+<h3 id="operations-on-lists">Operations on <strong><em>Lists</em></strong></h3>
+<h3 id="operations-on-dictionaries">Operations on <strong><em>Dictionaries</em></strong></h3>
                 
                   
                 

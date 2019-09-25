@@ -223,6 +223,10 @@
         
   
   
+    
+    
+  
+  
     <li class="md-tabs__item">
       
         <a href="../../Cont_Mech/Cont_Mech/" class="md-tabs__link">
@@ -230,6 +234,8 @@
         </a>
       
     </li>
+  
+
   
 
       
@@ -665,10 +671,34 @@
           
 
 
-  <li class="md-nav__item">
-    <a href="../../Cont_Mech/Cont_Mech/" title="Continuum Mechanics" class="md-nav__link">
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
       Continuum Mechanics
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Continuum Mechanics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cont_Mech/Cont_Mech/" title="Introduction" class="md-nav__link">
+      Introduction
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -834,18 +864,30 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../MyDictionary/" title="Word Base" class="md-nav__link">
+      Word Base
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
   <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6" checked>
     
-    <label class="md-nav__link" for="nav-4-5">
+    <label class="md-nav__link" for="nav-4-6">
       Uncategorised
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-5">
+      <label class="md-nav__title" for="nav-4-6">
         Uncategorised
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -891,8 +933,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mathjax-trials" class="md-nav__link">
-    MathJax (Trials)
+  <a href="#mathjax" class="md-nav__link">
+    MathJax
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-images-in-the-md-files" class="md-nav__link">
+    Adding Images in the .md files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#embedding-html-in-the-md-file" class="md-nav__link">
+    Embedding HTML in the .md file
   </a>
   
 </li>
@@ -946,8 +1002,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mathjax-trials" class="md-nav__link">
-    MathJax (Trials)
+  <a href="#mathjax" class="md-nav__link">
+    MathJax
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-images-in-the-md-files" class="md-nav__link">
+    Adding Images in the .md files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#embedding-html-in-the-md-file" class="md-nav__link">
+    Embedding HTML in the .md file
   </a>
   
 </li>
@@ -1109,7 +1179,7 @@ Etiam ipsum quam, mattis in purus vitae, lacinia fermentum enim.</p>
 </tbody>
 </table>
 <hr />
-<h2 id="mathjax-trials">MathJax (Trials)</h2>
+<h2 id="mathjax">MathJax</h2>
 <div>
 <div class="MathJax_Preview">
 \frac{n!}{k!(n-k)!} = \binom{n}{k}
@@ -1217,6 +1287,15 @@ You can also use inline Markdown.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="adding-images-in-the-md-files">Adding Images in the <code class="codehilite"><span class="na">.md</span></code> files</h2>
+<p>Syntax <code class="codehilite"><span class="err">!</span><span class="o">[</span><span class="n">Name_of_the_Image</span><span class="o">]</span><span class="p">(</span><span class="n">Images</span><span class="o">/</span><span class="n">Jellyfish</span><span class="p">.</span><span class="n">png</span><span class="p">)</span><span class="w"></span></code> The image file path in the braces <code class="codehilite"><span class="p">(</span><span class="n">xxx</span><span class="err">\</span><span class="n">xx</span><span class="err">\</span><span class="n">x</span><span class="err">\</span><span class="n">xx</span><span class="err">\</span><span class="p">)</span></code> should be with respect to the <code class="codehilite"><span class="na">.md</span></code> file that you are working with. </p>
+<p><img alt="Name of the Image" src="../Images/Jellyfish.png" />
+<em>Fig. 2: Random Picture 1</em></p>
+<p><img alt="&quot;dominating_sets_example2&quot;" src="http://blog.fcon21.biz/uploads/2/quote_Wernher_von_Braun_1009.jpg" /></p>
+<p><em>Fig. 2: Random Picture 2</em></p>
+<p><img src="https://pbs.twimg.com/media/CSTRE3kUkAA69AB.jpg" alt="dominating_sets_example2"/></p>
+<p><em>Fig. 2: Random Picture 3</em></p>
+<h2 id="embedding-html-in-the-md-file">Embedding HTML in the .md file</h2>
                 
                   
                 
@@ -1237,7 +1316,7 @@ You can also use inline Markdown.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../Misc/" title="Really Misc" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../MyDictionary/" title="Word Base" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1246,7 +1325,7 @@ You can also use inline Markdown.</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Really Misc
+                Word Base
               </span>
             </div>
           </a>

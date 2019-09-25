@@ -128,7 +128,7 @@ Extension(const Descriptor *descriptor, const Descriptor *scope) :
 | ext    | extension to be used for dest files. |
 
 ---
-## MathJax (Trials)	
+## MathJax
 
 $$
 \frac{n!}{k!(n-k)!} = \binom{n}{k}
@@ -184,5 +184,22 @@ You can also use inline Markdown.
 [with links](images/dingus/image-small.png) | images ![zoomify](images/dingus/image-small.png){.tiny} | emojis 🍔
 icons _cloud_{.icon} | footnotes[^1] | use `<br>` <br> for multi-line <br> line breaks
 
+## Adding Images in the `.md` files	
+
+Syntax `![Name_of_the_Image](Images/Jellyfish.png)` The image file path in the braces `(xxx\xx\x\xx\)` should be with respect to the `.md` file that you are working with. 
+
+![Name of the Image](Images/Jellyfish.png)
+*Fig. 2: Random Picture 1*
+
+!["dominating_sets_example2"](http://blog.fcon21.biz/uploads/2/quote_Wernher_von_Braun_1009.jpg)
+
+*Fig. 2: Random Picture 2*
+
+<img src="https://pbs.twimg.com/media/CSTRE3kUkAA69AB.jpg" alt="dominating_sets_example2"/>
+
+*Fig. 2: Random Picture 3*
+
+
+## Embedding HTML in the .md file
 
 
