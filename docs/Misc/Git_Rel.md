@@ -2,6 +2,29 @@
 
 ## Useful Commands/Processes
 
+### Creating a git-repo from Command Line and push to  GitHub
+
+1. Create a directory (or folder) in the local computer to keep the project files.
+2. Start the ***git-bash*** or any ***CLI*** from inside the directory.
+3. Type `git init` in the command line. (Now your **local project directory** also called **working directory** turned into a **Local Git - Repository** or commanly called as **Git - Repository**)
+4. Add a sample text (`.txt`) file and write some code (or any random text) in it.
+5. (Optional) Add a `.gitignore` file with all the file extensions that are not necessary to track
+6. Type `git status .` to see the untracked and modified files in the **Git - Repository**.
+7. Type `git add .` to add all the files to **Staging**
+8. Type `git commit -m "Commit Message - Say Initial Commit"`
+
+Thats all **Git - Repository** has been locally created in your computer. If you want, you can work like that alone, If you want to create a **Remote Git - Repository**, then you must
+subscribe to any of the cloud based git-services. (such as, GitHub, GitLab, BitBucket etc.). Following is the procedure for **GitHub**
+
+1. Create an Empty repository in GitHub. Public or Private with no files added to including `ReadMe.md` (We will add all those once we publsh the local repository on github).
+2. Copy the `URL` of the repository (say `https://github.com/vijaypolimeru/Git_Test.git`).
+3. Type `git remote add origin https://github.com/vijaypolimeru/Git_Test.git`
+4. Then type `git remote -v`
+5. Then type `git push origin master`
+
+That's all your **Local Git - Repository** has been uploaed (or pushed) to the **Remote Git - Repository**.
+
+
 ### Ignoring Files That Have Already Been Committed to the Repo 
 
 Git can only ignore files that are *untracked* - files that haven't been committed to the repository, yet. That's why, when you create a new repository, you should also create a `.gitignore` file with all the file patterns you want to ignore.
@@ -40,3 +63,27 @@ Some times, it is necessary to commit only the changes made in a sub-directory w
 ### Git-Bash vs Git-GUI, Relative Advantages and Disadvantages
 
 A better answer will come soon, untill then try to do the operations listed in the above sections in any Git-GUI, you will come to know, why Git-Bash is much superieor to any Git-GUI...
+
+## Bucket List of upcoming Git Related Topics
+
+- [ ] ***Branches*** - Creating and performing other operations, such as checking them out, merging with master branch etc
+- [ ] ***Merge Conflicts***
+- [ ] Dealing with ***Detached Heads***
+- [ ] Some imporatant git processes every developer must aware of
+	- [ ] How to checkout a one of the past commits?
+	- [ ] Will add more :)
+	
+- [ ] List of essential ***Git*** commands that every developer must aware of (In detail explanation with examples) 
+	- [ ] `config`
+	- [ ] `checkout`
+	- [ ] `reset` and its varities
+	- [ ] `stash`
+	- [ ] `cherry-pick`
+	- [ ] `revert`
+	- [ ] `rebase`
+	- [ ] `log`
+	- [ ] `blame`
+	- [ ] `diff`
+	- [ ] `reflog`
+	- [ ] `show`
+	- [ ] `remote`

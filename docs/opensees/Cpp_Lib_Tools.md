@@ -48,3 +48,8 @@ Copy paste the following code in a file with name `xx_AnyName_xx.natvis` and pla
 
 </AutoVisualizer>
 ```
+
+## Bucket List of upcoming C++ Topics
+	
+- [ ] Plotting in C++
+- [ ] A Brief but detailed C++ Course for upcoming OPS Developers (Brief but detailed... )

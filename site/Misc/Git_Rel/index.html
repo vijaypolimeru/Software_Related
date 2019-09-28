@@ -877,6 +877,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#creating-a-git-repo-from-command-line-and-push-to-github" class="md-nav__link">
+    Creating a git-repo from Command Line and push to  GitHub
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#ignoring-files-that-have-already-been-committed-to-the-repo" class="md-nav__link">
     Ignoring Files That Have Already Been Committed to the Repo
   </a>
@@ -1014,6 +1021,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#creating-a-git-repo-from-command-line-and-push-to-github" class="md-nav__link">
+    Creating a git-repo from Command Line and push to  GitHub
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#ignoring-files-that-have-already-been-committed-to-the-repo" class="md-nav__link">
     Ignoring Files That Have Already Been Committed to the Repo
   </a>
@@ -1065,6 +1079,27 @@
                 
                 <h1 id="git-related">Git Related...</h1>
 <h2 id="useful-commandsprocesses">Useful Commands/Processes</h2>
+<h3 id="creating-a-git-repo-from-command-line-and-push-to-github">Creating a git-repo from Command Line and push to  GitHub</h3>
+<ol>
+<li>Create a directory (or folder) in the local computer to keep the project files.</li>
+<li>Start the <strong><em>git-bash</em></strong> or any <strong><em>CLI</em></strong> from inside the directory.</li>
+<li>Type <code class="codehilite"><span class="n">git</span> <span class="n">init</span></code> in the command line. (Now your <strong>local project directory</strong> also called <strong>working directory</strong> turned into a <strong>Local Git - Repository</strong> or commanly called as <strong>Git - Repository</strong>)</li>
+<li>Add a sample text (<code class="codehilite"><span class="na">.txt</span></code>) file and write some code (or any random text) in it.</li>
+<li>(Optional) Add a <code class="codehilite"><span class="na">.gitignore</span></code> file with all the file extensions that are not necessary to track</li>
+<li>Type <code class="codehilite"><span class="n">git</span> <span class="n">status</span> <span class="p">.</span></code> to see the untracked and modified files in the <strong>Git - Repository</strong>.</li>
+<li>Type <code class="codehilite"><span class="n">git</span> <span class="k">add</span> <span class="p">.</span></code> to add all the files to <strong>Staging</strong></li>
+<li>Type <code class="codehilite"><span class="n">git</span> <span class="k">commit</span> <span class="o">-</span><span class="n">m</span> <span class="ss">&quot;Commit Message - Say Initial Commit&quot;</span></code></li>
+</ol>
+<p>Thats all <strong>Git - Repository</strong> has been locally created in your computer. If you want, you can work like that alone, If you want to create a <strong>Remote Git - Repository</strong>, then you must
+subscribe to any of the cloud based git-services. (such as, GitHub, GitLab, BitBucket etc.). Following is the procedure for <strong>GitHub</strong></p>
+<ol>
+<li>Create an Empty repository in GitHub. Public or Private with no files added to including <code class="codehilite"><span class="n">ReadMe</span><span class="p">.</span><span class="n">md</span></code> (We will add all those once we publsh the local repository on github).</li>
+<li>Copy the <code class="codehilite"><span class="n">URL</span></code> of the repository (say <code class="codehilite"><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">vijaypolimeru</span><span class="o">/</span><span class="n">Git_Test</span><span class="p">.</span><span class="n">git</span></code>).</li>
+<li>Type <code class="codehilite"><span class="n">git</span> <span class="n">remote</span> <span class="k">add</span> <span class="n">origin</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">vijaypolimeru</span><span class="o">/</span><span class="n">Git_Test</span><span class="p">.</span><span class="n">git</span></code></li>
+<li>Then type <code class="codehilite"><span class="n">git</span> <span class="n">remote</span> <span class="o">-</span><span class="n">v</span></code></li>
+<li>Then type <code class="codehilite"><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">master</span></code></li>
+</ol>
+<p>That's all your <strong>Local Git - Repository</strong> has been uploaed (or pushed) to the <strong>Remote Git - Repository</strong>.</p>
 <h3 id="ignoring-files-that-have-already-been-committed-to-the-repo">Ignoring Files That Have Already Been Committed to the Repo</h3>
 <p>Git can only ignore files that are <em>untracked</em> - files that haven't been committed to the repository, yet. That's why, when you create a new repository, you should also create a <code class="codehilite"><span class="na">.gitignore</span></code> file with all the file patterns you want to ignore.
 However its very difficult to know upfornt about all the file types that you want to be ignored.</p>

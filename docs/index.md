@@ -4,7 +4,7 @@
 	I will be glad, if you find something usefull in this website.
 
 
-# About Me
+## About Me
 
 
 I am Vijay Kumar. At present, I am working as a research scholar in department of Civil Engineering, IIT Bombay. My research involves predicting the failure characteristics of shear critical thin walled structures (such as Hollow RC bridge columns, shear walls, box girders etc.) under reversed cyclic and earthquake loads. My research interests includes Finite element analysis, Mechanics of Reinforced Concrete and Structural dynamics.
@@ -16,4 +16,8 @@ I am Vijay Kumar. At present, I am working as a research scholar in department o
 	* **B. Tech**, Civil Engineering, [KL College of Engineering](https://www.kluniversity.in/) (affiliated to Acharya Nagarjuna University), India, 2008 - 2012
 
 	
-Checking push/pull git
+## Bucket List for the Website
+	
+- [ ] More information about me...
+- [ ] Subscription related options
+- [ ] Option for topic suggestion and improving the content of the website.

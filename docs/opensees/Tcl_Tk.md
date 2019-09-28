@@ -333,11 +333,12 @@ General syntax for operating on array varibale is `array option arrayname? arg1 
 
 
 ---
+## Bucket List of upcoming Tcl/Tk Topics
 	
-### Operations on ***Lists***
-
-
-### Operations on ***Dictionaries***
+- [ ] Operations on ***Lists***
+- [ ] Operations on ***Dictionaries***
+- [ ] Plotting in Tcl with realtime data from OpenSees
+- [ ] Introduction to Tk
 
 
 
