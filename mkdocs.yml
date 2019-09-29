@@ -54,6 +54,8 @@ nav:
     - Word Base: Misc/MyDictionary.md
     - Uncategorised:
         - Practice: Misc/Practice.md
+- Forms: 
+    - Forms: Forms/Forms.md
 
 #########################################################
 # Theme Description .yml
