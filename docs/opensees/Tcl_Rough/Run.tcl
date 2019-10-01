@@ -1,5 +1,89 @@
 wipe;
 
+
+
+
+set A 1;
+set B 0;
+
+puts [expr !($A&&$B)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if 0 {
+proc RandomValueGenerator { MinValue MaxValue} {
+    set RandValue [expr $MinValue + rand()*($MaxValue - $MinValue)];
+	return $RandValue;
+}
+
+
+puts [RandomValueGenerator -10 -10.5];
+puts [RandomValueGenerator  0.1 0.2];
+puts [RandomValueGenerator  10 -10.5];
+
+}
+
+
+
+
+
+if 0 {
+
+set A "10 2 10 3 4 5 3 2 44";
+
+set A_Length [llength $A];
+
+puts "A_Length = $A_Length \n"
+
+for {set i 0} {$i < $A_Length} {incr i 1} {
+	
+	set A_i [lindex $A $i];
+
+	puts "A_i = $A_i \n"
+
+}
+
+# foreach i $A j $A {
+	
+
+
+	# puts "i = $i \t j = $j \n"
+
+# }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # ########################################################################################
 # Arrays Start
 # ########################################################################################
@@ -17,6 +101,8 @@ wipe;
    # puts "Ass_Array($index_ids): $Ass_Array($index_ids)"
 # }
 
+if 0 {
+
 array set days {
     1 Monday
     2 Tuesday
@@ -32,6 +118,7 @@ set n [array size days]
 puts $days(3)
 puts "array has $n elements"
 
+}
 
 # ########################################################################################
 # Arrays End

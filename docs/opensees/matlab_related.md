@@ -25,6 +25,11 @@ B = rand(20);
 save('FileName.mat','A','B')
 ```
 
+3. Display text in Command window using `fprintf`
+```MATLAB
+fprintf('k = %d and %s \n', k, files(k).name);
+```
+
 ## Useful Codes
 
 1. Generate a vector of Random Values (`No_of_Values`) between `MinValue` and `MaxValue`. 
@@ -56,6 +61,26 @@ OutPut_Load = load(['Abs_', num2str(i), '_bcd_', num2str(j), '.txt']); % using l
 		system(['OpenSees_0db612a.exe<',filename]);
 	end
 	```
+	
+4. Loading files from a directory by **extension**.
+
+	In the below example we are loading all files having names `DFree_xxx_0.out`, in which `DFree` and `_0.out` is common in all files and `xxx` is a number which is different in all the files. (an example file name will be like `DFree_107_0.out`)
+
+	```matlab
+	files = dir(['Data\DFree', '*.out']);
+	for k = 1:length(files)
+		k;
+		files(k).name
+		ForceDisp = dlmread(['Data\', files(k).name]);
+		
+		% or
+		
+		ForceDisp = dlmread([files(k).folder, '\' ,files(k).name]);
+
+	end
+	
+	``` 
+		
 
 ## Bucket List of upcoming Matlab Topics
 	
