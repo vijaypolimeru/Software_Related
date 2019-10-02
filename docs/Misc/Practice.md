@@ -184,6 +184,12 @@ You can also use inline Markdown.
 [with links](images/dingus/image-small.png) | images ![zoomify](images/dingus/image-small.png){.tiny} | emojis 🍔
 icons _cloud_{.icon} | footnotes[^1] | use `<br>` <br> for multi-line <br> line breaks
 
+
+## Cross Referencing `.md` files
+
+Please see the project for detailed information on [tcl/tk](../Rough/OPS_VCpp.md)
+
+
 ## Adding Images in the `.md` files	
 
 Syntax `![Name_of_the_Image](Images/Jellyfish.png)` The image file path in the braces `(xxx\xx\x\xx\)` should be with respect to the `.md` file that you are working with. 

@@ -3,9 +3,16 @@
 ## Upcoming Conferences
 
 1. [ECF23, European Conference on Fracture 2020](https://www.ecf23.eu/)
-	1. [Important Dates](https://www.ecf23.eu/submission/)
+	1. [Important Dates - February 1 2020 Abstract submission Last Date](https://www.ecf23.eu/submission/)
 	2. [Publication of Proceedings](https://www.ecf23.eu/publications/)
 	3. [Venue](https://www.ecf23.eu/venue/)
+	
+2. [Eurodyn 2020, XI International Conference on Structural Dynamics](https://eurodyn2020.org/)
+	1. [Important Dates - October 30 Abstract submission Last Date](https://eurodyn2020.org/content/important-dates)
+	2. Publication of Proceedings - No Information Provided
+	3. [Venue](https://eurodyn2020.org/content/the-venue)
+
+
 	
 ## List of Journals for Strucutral Engineers
 
@@ -26,17 +33,16 @@
 13. [Advances in Structural Engineering](https://journals.sagepub.com/home/ase)
 14. [Magazine of Concrete Research](https://www.icevirtuallibrary.com/toc/jmacr/current)
 15. [Reliability Engineering & System Safety](https://www.journals.elsevier.com/reliability-engineering-and-system-safety)
-16. [Structures and Buildings]()
-17. [Archives of Civil and Mechanical Enigneering]()
-18. [Int. Journal of Concrete Structures and Materials, Springer]()
-19. [Structure and Infrastructure Engineering, T&F]()
-20. [Journal of Earthquake Engineering]()
-21. [Bulletin of Earthquake Engineering]()
-22. [Frontiers of Structural and Civil Engineering]()
-23. [Journal of Structural Stability and dynamics]()
-24. [Proceedings of the Institution of Civil Engineers - Structures and Buildings]()
-25. [Advances in Engineering Software]()
-26. [Sadhana]()
+16. [Structures and Buildings, ICE](https://www.icevirtuallibrary.com/toc/jstbu/current)
+17. [Archives of Civil and Mechanical Enigneering, Elsevier](https://www.journals.elsevier.com/archives-of-civil-and-mechanical-engineering)
+18. [Int. Journal of Concrete Structures and Materials, Springer](https://ijcsm.springeropen.com/)
+19. [Structure and Infrastructure Engineering, T&F](https://www.tandfonline.com/loi/nsie20)
+20. [Journal of Earthquake Engineering, T&F](https://www.tandfonline.com/loi/ueqe20)
+21. [Bulletin of Earthquake Engineering, Springer](https://link.springer.com/journal/10518)
+22. [Frontiers of Structural and Civil Engineering, Springer](https://www.springer.com/engineering/civil+engineering/journal/11709)
+23. [Journal of Structural Stability and dynamics, WorldScientific](https://www.worldscientific.com/worldscinet/ijssd)
+24. [Advances in Engineering Software, Elsevier](https://www.journals.elsevier.com/advances-in-engineering-software)
+25. [Sadhana, Springer](https://www.springer.com/engineering/journal/12046)
 
 ### Scopus/ESCI
 
