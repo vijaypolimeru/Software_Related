@@ -47,6 +47,7 @@ nav:
         - Unsupervised ML: Machine_Learning/Unsupervised_ML.md
     - How To:
         - Cyclic Stress-Strain : How_To/cyclic_stress_strain.md
+        - G12c Derivation : How_To/G12_C_Derivaton.md
     - Research Review: Research_Review/Res_review.md
 - Misc:
     - UBUNTU OS Related: Misc/UBUNTU_OS_Rel.md
@@ -54,6 +55,7 @@ nav:
     - Git Related: Misc/Git_Rel.md
     - Really Misc: Misc/Misc.md
     - Word Base: Misc/MyDictionary.md
+    - Success: Misc/Success_Rel.md
     - Uncategorised:
         - Practice: Misc/Practice.md
 - Forms: 

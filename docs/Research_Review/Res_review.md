@@ -52,4 +52,38 @@
 4. [HKIE Transactions]()
 
 
+## Guide to Write a Research Paper
+
+### `n` Draft Process
+
+This process is very much helpful in writing a research paper. I named this process a ***n-Draft*** process, because it involves writing different versions untill the research paper is acceptable for publication. The number of drafts
+required may vary from person to person (for some 5 drafts may be enough and for others may require 10). However, any person will require minimum 3 drafts, namely **0th Draft**, **1st Draft** and **2nd Draft**. A breif description of each draft
+is as follows
+
+1. **0th Draft** - The objective of this draft is to prepare the *Initial Outline* of the research paper and filling it with *Intial Meat*. Keep in mind that this is not a *final* but *initial* draft, The primary purpose of this draft is to *Initiate* the research paper. This stage is more like preparing the **Skeleton**, in the later
+stages we will add meat to the skeleton. By outline I mean, preparing the list of section and subsection headings. Once an *Initial Outline* is prepared then add *Intial Meat* to it, that is fill the sections and subsections with anything you want. Don't worry about appropriateness, justifications, citations etc. We will come to those in the later stages.
+
+2. **1st Draft** - Once the 0th Draft is prepared then ask the question **Why do you think this 0th Draft is not appropriate for submission?**. I mean prepare of list of comments that makes the 0th Draft unworthy for submission. Overall the entire research paper wriitng can be summarised in to **Prepare a 0th Draft --> Get Comments --> Address the comments --> Revise the Draft --> Get Comments -->**. Repeat the cycle untill the draft is submittable.
+Once you revise the 0th Draft after addressing all the comments you listed on the 0th Draft, name that revised draft as **1st Draft**.
+
+3. **2nd Draft** - Once again ask the question **Why do you think this 1st Draft is not appropriate for submission?** on the 1st Draft. Prepare a list of comments and revise the *1st Draft* after addressing all the commnets, name that revised draft as **2nd Draft**.  
+
+4. **3rd Draft** - Repeat the *Revision Cycle* untill the latest draft is acceptable for submission, i.e. ***Take you $n^{th}$ Draft --> Get Comments --> Address the comments --> Revise the Draft and name it as $(n+1)^{th}$ Draft***
+
+When I ask the question **Why do you think this 1st (or 2nd or 3rd) Draft is not appropriate for submission?**, What I am really asking is, **Does this draft met all the requirements mentioned in the publication checklists?** The moment you know all the criteria mentioned in the publication checklist are checked, then you are ready to hit the submission button.
+
+### Publication Checklists
+
+#### Editor Checklist
+#### Reviewer Checklist
+#### Publisher Checklist
+#### Post-Publication Checklists
+##### Citation Checklist
+##### Plagiarism Checklist
+##### Retraction Checklist
+
+
 ## Review of Some Interesting Research Papers in Structural Engineering
+
+
+
