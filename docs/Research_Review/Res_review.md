@@ -43,6 +43,7 @@
 23. [Journal of Structural Stability and dynamics, WorldScientific](https://www.worldscientific.com/worldscinet/ijssd)
 24. [Advances in Engineering Software, Elsevier](https://www.journals.elsevier.com/advances-in-engineering-software)
 25. [Sadhana, Springer](https://www.springer.com/engineering/journal/12046)
+26. [Simulation Modelling Practice and Theory, Elsevier](https://www.journals.elsevier.com/simulation-modelling-practice-and-theory)
 
 ### Scopus/ESCI
 
@@ -68,7 +69,7 @@ Once you revise the 0th Draft after addressing all the comments you listed on th
 
 3. **2nd Draft** - Once again ask the question **Why do you think this 1st Draft is not appropriate for submission?** on the 1st Draft. Prepare a list of comments and revise the *1st Draft* after addressing all the commnets, name that revised draft as **2nd Draft**.  
 
-4. **3rd Draft** - Repeat the *Revision Cycle* untill the latest draft is acceptable for submission, i.e. ***Take you $n^{th}$ Draft --> Get Comments --> Address the comments --> Revise the Draft and name it as $(n+1)^{th}$ Draft***
+4. **3rd Draft** - Repeat the *Revision Cycle* untill the latest draft is acceptable for submission, i.e. ***Take your $n^{th}$ Draft --> Get Comments --> Address the comments --> Revise the Draft and name it as $(n+1)^{th}$ Draft***
 
 When I ask the question **Why do you think this 1st (or 2nd or 3rd) Draft is not appropriate for submission?**, What I am really asking is, **Does this draft met all the requirements mentioned in the publication checklists?** The moment you know all the criteria mentioned in the publication checklist are checked, then you are ready to hit the submission button.
 
@@ -81,6 +82,11 @@ When I ask the question **Why do you think this 1st (or 2nd or 3rd) Draft is not
 ##### Citation Checklist
 ##### Plagiarism Checklist
 ##### Retraction Checklist
+
+
+## Important Email Format(s)
+
+### Some Enquiries (such as APC, Template, Avg. Review Time etc...) before Submission
 
 
 ## Review of Some Interesting Research Papers in Structural Engineering
