@@ -375,6 +375,10 @@ General syntax for operating on array varibale is `array option arrayname? arg1 
     Unsets all of the elements in the array that match pattern (using the matching rules of string match). If arrayName isn't the name of an array variable or there are no matching elements in the array, no error will be raised. If pattern is omitted and arrayName is an array variable, then the command unsets the entire array. The command always returns an empty string. 
 
 
+
+### Operations on ***Lists***
+
+
 ---
 ## Bucket List of upcoming Tcl/Tk Topics
 	
