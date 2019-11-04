@@ -44,6 +44,7 @@
 24. [Advances in Engineering Software, Elsevier](https://www.journals.elsevier.com/advances-in-engineering-software)
 25. [Sadhana, Springer](https://www.springer.com/engineering/journal/12046)
 26. [Simulation Modelling Practice and Theory, Elsevier](https://www.journals.elsevier.com/simulation-modelling-practice-and-theory)
+27. [Archives of Computational Methods in Engineering, Springer](https://link.springer.com/journal/11831)
 
 ### Scopus/ESCI
 
