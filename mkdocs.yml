@@ -41,6 +41,8 @@ nav:
     - Structural Dynamics: Structural_Dynamics/Structural_Dynamics.md
     - Statistics: 
         - Introduction: Courses/Statistics/Introduction.md
+    - Rheoteric:
+        - Introduction: Courses/Rheoteric/Introduction.md
     - Machine Learning:
         - Introduction: Machine_Learning/Introduction.md
         - Supervised ML: Machine_Learning/Supervised_ML.md
