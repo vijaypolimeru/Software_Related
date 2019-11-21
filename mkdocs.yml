@@ -69,6 +69,7 @@ nav:
 
 theme:
     name: material
+    custom_dir: ModifiedTheme
     feature:
         tabs: true
     palette:
