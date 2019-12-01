@@ -108,6 +108,12 @@ markdown_extensions:
 # Javascript Extensions .yml
 #########################################################
 
+extra_css:
+  - css/extra.css
+  - css/BootStrap/bootstrap.min.css
+  - css/BootStrap/bootstrap-grid.min.css
+  - css/BootStrap/bootstrap-reboot.min.css
+
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 

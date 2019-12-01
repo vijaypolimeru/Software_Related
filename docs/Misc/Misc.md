@@ -1,6 +1,50 @@
 # Really Miscellaneous Info...
 
 ---
+### Where to see `pip` installed packages
+
+To find the location of `pip` installed packages please type `python -m pip show package-name` example `python -m pip show mkdocs`. In Ubuntu `python -m` is not necessary just `pip show package-name` is sufficient. Follwoing lines will printed
+in the command window
+
+```
+> python -m pip show mkdocs
+Name: mkdocs
+Version: 1.2.0
+...
+Location: /usr/local/lib/python2.7/site-packages
+
+```
+
+---
+### Download YouTube Video (All videos from playlist)
+To download YouTube Video (or All videos from playlist), follow the following steps
+
+1. Install `youtube-dl` using `sudo -H pip install --upgrade youtube-dl` in Ubuntu or `python -m pip install --upgrade youtube-dl --user` in Windows 7 or more. Wait till the installation is over
+2. Copy paste the following script in any Python IDE and Run the code, makesure you are connected to internet, otherwise the program throws some errors (***Note*** - To download multiple videos from playlist, please paste the playlist link in the video link position)
+```python
+from __future__ import unicode_literals
+import youtube_dl
+
+ydl_opts = {}
+with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+    ydl.download(['https://www.youtube.com/watch?v=dy59i6XMnTI'])
+
+```
+or
+```python
+from __future__ import unicode_literals
+import youtube_dl
+import os
+
+ydl_opts = {}
+os.chdir('C:/Users/Desktop') # Location to save download video files
+with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+    ydl.download(['https://www.youtube.com/watch?v=n06H7OcPd-g'])
+```
+---
+
+
+
 ### Unit Weight of Concrete
 
 * Mass Density of Plain Concrete ($kg/m^3$) = 2300 $kg/m^3$
