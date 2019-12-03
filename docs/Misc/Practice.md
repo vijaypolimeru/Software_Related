@@ -5,7 +5,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-	
+
 !!! note "Embedded code blocks"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
@@ -31,9 +31,9 @@
     Nunc eu odio eleifend, blandit leo a, volutpat sapien. Phasellus posuere in
     sem ut cursus. Nullam sit amet tincidunt ipsum, sit amet elementum turpis.
     Etiam ipsum quam, mattis in purus vitae, lacinia fermentum enim.
-	
-## C++	
-	
+
+## C++
+
 ``` cpp
 Extension::
 Extension(const Descriptor *descriptor, const Descriptor *scope) :
@@ -68,7 +68,7 @@ Extension(const Descriptor *descriptor, const Descriptor *scope) :
     suffix, ".", "_", true);
   LowerString(&(variables_["extension"]));
 }
-```	
+```
 
 !!! note "Embedded code blocks"
 
@@ -116,9 +116,9 @@ Extension(const Descriptor *descriptor, const Descriptor *scope) :
     Nunc eu odio eleifend, blandit leo a, volutpat sapien. Phasellus posuere in
     sem ut cursus. Nullam sit amet tincidunt ipsum, sit amet elementum turpis.
     Etiam ipsum quam, mattis in purus vitae, lacinia fermentum enim.
-	
+
 	$$e=mc^2 \tag{2}\label{eq2}$$
-	
+
 ---
 
 | Option | Description |
@@ -190,11 +190,11 @@ icons _cloud_{.icon} | footnotes[^1] | use `<br>` <br> for multi-line <br> line 
 Please see the project for detailed information on [tcl/tk](../Rough/OPS_VCpp.md)
 
 
-## Adding Images in the `.md` files	
+## Adding Images in the `.md` files
 
-Syntax `![Name_of_the_Image](Images/Jellyfish.png)` The image file path in the braces `(xxx\xx\x\xx\)` should be with respect to the `.md` file that you are working with. 
+Syntax `![Name_of_the_Image](images/Jellyfish.png)` The image file path in the braces `(xxx\xx\x\xx\)` should be with respect to the `.md` file that you are working with.
 
-![Name of the Image](Images/Jellyfish.png)
+![Name of the Image](images/Jellyfish.png)
 *Fig. 2: Random Picture 1*
 
 !["dominating_sets_example2"](http://blog.fcon21.biz/uploads/2/quote_Wernher_von_Braun_1009.jpg)
@@ -208,4 +208,24 @@ Syntax `![Name_of_the_Image](Images/Jellyfish.png)` The image file path in the b
 
 ## Embedding HTML in the .md file
 
-
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="width:100%; height:570px;" >
+      <img class="d-block w-100" style="width:100%; height:570px;" src="images/pic.png" alt="First slide">
+    </div>
+    <div class="carousel-item" style="width:100%; height:570px;" >
+      <img class="d-block w-100" style="width:100%; height:570px;" src="images/pic.png" alt="Second slide">
+    </div>
+    <div class="carousel-item" style="width:100%; height:570px;" >
+      <img class="d-block w-100" style="width:100%; height:570px;" src="images/pic.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

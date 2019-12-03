@@ -39,7 +39,7 @@ nav:
            - Worksheet 4: Cont_Mech/Work_Sheet_4.md
            - Mid-Sem: Cont_Mech/Mid_Sem.md
     - Structural Dynamics: Structural_Dynamics/Structural_Dynamics.md
-    - Statistics: 
+    - Statistics:
         - Introduction: Courses/Statistics/Introduction.md
     - Rheoteric:
         - Introduction: Courses/Rheoteric/Introduction.md
@@ -60,7 +60,7 @@ nav:
     - Success: Misc/Success_Rel.md
     - Uncategorised:
         - Practice: Misc/Practice.md
-- Forms: 
+- Forms:
     - Forms: Forms/Forms.md
 
 #########################################################
@@ -110,12 +110,19 @@ markdown_extensions:
 
 extra_css:
   - css/extra.css
-  - css/BootStrap/bootstrap.min.css
-  - css/BootStrap/bootstrap-grid.min.css
-  - css/BootStrap/bootstrap-reboot.min.css
+  - https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
+  - css/material_original/application.30686662.css
+  - css/material_original/application-palette.a8b3c06d.css
+  # - <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  # - css/BootStrap/bootstrap.min.css
+  # - css/BootStrap/bootstrap-grid.min.css
+  # - css/BootStrap/bootstrap-reboot.min.css
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'https://code.jquery.com/jquery-3.2.1.slim.min.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'
+  - 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'
 
 # Google Analytics
 google_analytics: ['UA-148011093-1', 'https://vijaypolimeru.github.io/Something_Abt_Everything/']
