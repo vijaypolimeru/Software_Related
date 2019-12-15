@@ -108,6 +108,9 @@ markdown_extensions:
 # Javascript Extensions .yml
 #########################################################
 
+extra:
+    disqus: vijaypolimeru-github-io.disqus.com
+
 extra_css:
   - css/extra.css
   - https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css

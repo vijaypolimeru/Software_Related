@@ -1,0 +1,114 @@
+site_name: Structural Engineering
+
+site_description: A Website for Structural Engineers
+
+#########################################################
+# Page Navigation in .yml
+#########################################################
+
+nav:
+- Home:
+   - About Me: index.md
+- OpenSEES:
+   - OpenSEES User:
+      - OpenSEES Seq: opensees/OPS_User/OPS_Seq.md
+      - OpenSEES Parallel:
+           - OpenSEES df:
+                - OpenSEES df:
+                   - OpenSEES df:
+                        - OpenSEES df:
+                            - OpenSEES df:
+                                - OpenSEES df: opensees/OPS_User/OPS_Parallel.md
+                                - OpenSEES df: opensees/OPS_User/OPS_Parallel.md
+                                - OpenSEES df: opensees/OPS_User/OPS_Parallel.md
+   - OpenSEES VC++: opensees/OPS_VCpp.md
+   - OpenSEES Python: opensees/OPS_Python.md
+   - OpenSEES Gui: opensees/OPS_GUI.md
+   - Tcl/Tk Language: opensees/Tcl_Tk.md
+   - MATLAB: opensees/matlab_related.md
+   - Python: opensees/Python_Lang.md
+   - C++ Libraries and Tools: opensees/Cpp_Lib_Tools.md
+- Course Planning:
+    - Structural Dynamics: Structural_Dynamics/Structural_Dynamics.md
+    - Machine Learning:
+        - Introduction: Machine_Learning/Introduction.md
+        - Supervised ML: Machine_Learning/Supervised_ML.md
+        - Unsupervised ML: Machine_Learning/Unsupervised_ML.md
+    - How To:
+        - Cyclic Stress-Strain : How_To/cyclic_stress_strain.md
+- Misc:
+    - UBUNTU OS Related: Misc/UBUNTU_OS_Rel.md
+    - Windows OS Related: Misc/Windows_OS_Rel.md
+    - Git Related: Misc/Git_Rel.md
+    - Really Misc: Misc/Misc.md
+    - Uncategorised:
+        - Practice: Misc/Practice.md
+- Forms:
+    - Forms: Forms/Forms.md
+
+#########################################################
+# Theme Description .yml
+#########################################################
+
+theme:
+    name: material
+    custom_dir: ModifiedTheme
+    feature:
+        tabs: true
+    palette:
+        primary: 'White'
+        accent: 'Red'
+    font:
+        text: 'Ubuntu'
+        code: 'Ubuntu Mono'
+
+#########################################################
+# Markdown Extensions .yml
+#########################################################
+
+markdown_extensions:
+    - markdown.extensions.admonition
+    - pymdownx.superfences
+    - codehilite
+    - footnotes
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+
+#########################################################
+# Javascript Extensions .yml
+#########################################################
+
+extra:
+    disqus: 'vijaypolimeru-github-io.disqus.com'
+
+extra_css:
+  - css/extra.css
+  - https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
+  - css/material_original/application.30686662.css
+  - css/material_original/application-palette.a8b3c06d.css
+  # - <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  # - css/BootStrap/bootstrap.min.css
+  # - css/BootStrap/bootstrap-grid.min.css
+  # - css/BootStrap/bootstrap-reboot.min.css
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'https://code.jquery.com/jquery-3.2.1.slim.min.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'
+  - 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'
+
+# Google Analytics
+google_analytics: ['UA-148011093-1', 'https://vijaypolimeru.github.io/Something_Abt_Everything/']

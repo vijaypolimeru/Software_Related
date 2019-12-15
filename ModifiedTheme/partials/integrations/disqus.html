@@ -1,0 +1,38 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% set disqus = config.extra.disqus %}
+{% if page and page.meta and page.meta.disqus is string %}
+  {% set disqus = page.meta.disqus %}
+{% endif %}
+{% if not page.is_homepage and disqus %}
+  <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = https://vijaypolimeru.github.io/Something_Abt_Everything/Misc/Practice/;
+      this.page.identifier =
+        vijaypolimeru-github-io.disqus.com;
+    };
+    (function() {
+      var d = document, s = d.createElement("script");
+      s.src = "//{{ disqus }}.disqus.com/embed.js";
+      s.setAttribute("data-timestamp", +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  
+  <script>
+    var disqus_config = function () {
+      this.page.url = https://vijaypolimeru.github.io/Something_Abt_Everything/Misc/Misc;
+      this.page.identifier =
+        vijaypolimeru-github-io.disqus.com;
+    };
+    (function() {
+      var d = document, s = d.createElement("script");
+      s.src = "//{{ disqus }}.disqus.com/embed.js";
+      s.setAttribute("data-timestamp", +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>  
+{% endif %}
